@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/Input-Protection.kicad_sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 9.0.6+1</tool>
+    <textvar name="ASSEMBLY_NOTES"/>
+    <textvar name="BOARD_NAME">Input Protection</textvar>
+    <textvar name="COMPANY">University of Newcastle</textvar>
+    <textvar name="DESIGNER">R. HICKS</textvar>
+    <textvar name="FABRICATION_NOTES"/>
+    <textvar name="GIT_HASH_PCB">6998296</textvar>
+    <textvar name="GIT_HASH_SCH">a736dc4</textvar>
+    <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Assignment-1</textvar>
+    <textvar name="PROJECT_NAME">Assignment 1</textvar>
+    <textvar name="RELEASE_BODY_1.0.0"/>
+    <textvar name="RELEASE_BODY_1.0.1"/>
+    <textvar name="RELEASE_BODY_1.0.2"/>
+    <textvar name="RELEASE_BODY_1.1.0"/>
+    <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="RELEASE_DATE">06-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-06</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0"/>
+    <textvar name="RELEASE_TITLE_1.0.1"/>
+    <textvar name="RELEASE_TITLE_1.0.2"/>
+    <textvar name="RELEASE_TITLE_1.1.0"/>
+    <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="REVISION">+ (Unreleased)</textvar>
+    <textvar name="SHEET_NAME_1">Cover Page</textvar>
+    <textvar name="SHEET_NAME_10">......................................</textvar>
+    <textvar name="SHEET_NAME_11">......................................</textvar>
+    <textvar name="SHEET_NAME_12">......................................</textvar>
+    <textvar name="SHEET_NAME_13">......................................</textvar>
+    <textvar name="SHEET_NAME_14">......................................</textvar>
+    <textvar name="SHEET_NAME_15">......................................</textvar>
+    <textvar name="SHEET_NAME_16">......................................</textvar>
+    <textvar name="SHEET_NAME_17">......................................</textvar>
+    <textvar name="SHEET_NAME_18">......................................</textvar>
+    <textvar name="SHEET_NAME_19">......................................</textvar>
+    <textvar name="SHEET_NAME_2">Block Diagram</textvar>
+    <textvar name="SHEET_NAME_20">......................................</textvar>
+    <textvar name="SHEET_NAME_21">......................................</textvar>
+    <textvar name="SHEET_NAME_22">......................................</textvar>
+    <textvar name="SHEET_NAME_23">......................................</textvar>
+    <textvar name="SHEET_NAME_24">......................................</textvar>
+    <textvar name="SHEET_NAME_25">......................................</textvar>
+    <textvar name="SHEET_NAME_26">......................................</textvar>
+    <textvar name="SHEET_NAME_27">......................................</textvar>
+    <textvar name="SHEET_NAME_28">......................................</textvar>
+    <textvar name="SHEET_NAME_29">......................................</textvar>
+    <textvar name="SHEET_NAME_3">Schematic</textvar>
+    <textvar name="SHEET_NAME_30">......................................</textvar>
+    <textvar name="SHEET_NAME_31">......................................</textvar>
+    <textvar name="SHEET_NAME_32">......................................</textvar>
+    <textvar name="SHEET_NAME_33">......................................</textvar>
+    <textvar name="SHEET_NAME_34">......................................</textvar>
+    <textvar name="SHEET_NAME_35">......................................</textvar>
+    <textvar name="SHEET_NAME_36">......................................</textvar>
+    <textvar name="SHEET_NAME_37">......................................</textvar>
+    <textvar name="SHEET_NAME_38">......................................</textvar>
+    <textvar name="SHEET_NAME_39">......................................</textvar>
+    <textvar name="SHEET_NAME_4">Revision History</textvar>
+    <textvar name="SHEET_NAME_40">......................................</textvar>
+    <textvar name="SHEET_NAME_5">......................................</textvar>
+    <textvar name="SHEET_NAME_6">......................................</textvar>
+    <textvar name="SHEET_NAME_7">......................................</textvar>
+    <textvar name="SHEET_NAME_8">......................................</textvar>
+    <textvar name="SHEET_NAME_9">......................................</textvar>
+    <textvar name="VARIANT">DRAFT</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>University of Newcastle</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Input-Protection.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/">
+      <title_block>
+        <title>Block Diagram</title>
+        <company>University of Newcastle</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Block Diagram.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
+      <title_block>
+        <title>Schematic</title>
+        <company>University of Newcastle</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Schematic.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+      <title_block>
+        <title>Revision History</title>
+        <company>University of Newcastle</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Revision History.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C401">
+      <value>10n</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>d2a1addc-7ea4-47e2-9bc6-86c57d29152e</tstamps>
+    </comp>
+    <comp ref="C402">
+      <value>100n</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>b7e9a161-c435-4ee2-a548-657ed479b028</tstamps>
+    </comp>
+    <comp ref="C601">
+      <value>10n</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>3b4d38bf-dc00-4819-ae1b-1b5327886e87</tstamps>
+    </comp>
+    <comp ref="C602">
+      <value>10n</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>b8644ed8-fd81-45e3-a38e-e2c353721b6f</tstamps>
+    </comp>
+    <comp ref="D201">
+      <value>D3Z10BF-7</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <description>Zener diode</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-323_HandSoldering</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>6a882ced-365e-4772-9a4d-83ea26b3763f</tstamps>
+    </comp>
+    <comp ref="D501">
+      <value>D3Z10BF-7</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <description>Zener diode</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-323_HandSoldering</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>c025b971-26d2-4420-811c-f683500d1c62</tstamps>
+    </comp>
+    <comp ref="D701">
+      <value>1N4148WS</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <description>75V 0.15A Fast switching Diode, SOD-323</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85751/1n4148ws.pdf</field>
+        <field name="Description">75V 0.15A Fast switching Diode, SOD-323</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>ed4f27e8-a82d-4d10-84f8-7fa4f3a243a1</tstamps>
+    </comp>
+    <comp ref="D702">
+      <value>1N4148WS</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <description>75V 0.15A Fast switching Diode, SOD-323</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85751/1n4148ws.pdf</field>
+        <field name="Description">75V 0.15A Fast switching Diode, SOD-323</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>a037849d-4672-4141-8005-85e10142d44f</tstamps>
+    </comp>
+    <comp ref="FID901">
+      <value>FIDUCIAL</value>
+      <datasheet>~</datasheet>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>5da9979e-621a-4861-82a4-9db544fc990d</tstamps>
+    </comp>
+    <comp ref="FID902">
+      <value>FIDUCIAL</value>
+      <datasheet>~</datasheet>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>84a0f0cd-8876-4fd9-86ef-7cf7643f32d2</tstamps>
+    </comp>
+    <comp ref="FID903">
+      <value>FIDUCIAL</value>
+      <datasheet>~</datasheet>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>c17ae12b-7b0c-4733-85a9-e6dcd9e22842</tstamps>
+    </comp>
+    <comp ref="H901">
+      <value>MOUNT_M3</value>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>ce91a7f2-bbce-4af7-ad08-7a90d463883e</tstamps>
+    </comp>
+    <comp ref="H902">
+      <value>MOUNT_M3</value>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>10cda48e-adc9-44ff-916e-5401391dcac9</tstamps>
+    </comp>
+    <comp ref="H903">
+      <value>MOUNT_M3</value>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>1ed94456-2293-48aa-872c-51f2180c6838</tstamps>
+    </comp>
+    <comp ref="H904">
+      <value>MOUNT_M3</value>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>55cf5afe-cd67-43bc-9858-2ad7353bab96</tstamps>
+    </comp>
+    <comp ref="IC601">
+      <value>AZV3002S-13</value>
+      <footprint>Package_SO:Diodes_SO-8EP</footprint>
+      <datasheet>https://www.diodes.com//assets/Datasheets/AZV3001.pdf</datasheet>
+      <description>Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V</description>
+      <fields>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">AZV3002S-13</field>
+        <field name="Mouser Part Number">621-AZV3002S-13</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZV3002S-13?qs=ma0NyvTRVt0EcfML8tbxlQ%3D%3D</field>
+        <field name="Arrow Part Number">AZV3002S-13</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/azv3002s-13/diodes-incorporated?utm_currency=USD&amp;region=nac</field>
+        <field name="Footprint">Package_SO:Diodes_SO-8EP</field>
+        <field name="Datasheet">https://www.diodes.com//assets/Datasheets/AZV3001.pdf</field>
+        <field name="Description">Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V</field>
+      </fields>
+      <libsource lib="AZV3002S-13" part="AZV3002S-13" description="Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="Diodes Incorporated"/>
+      <property name="Manufacturer_Part_Number" value="AZV3002S-13"/>
+      <property name="Mouser Part Number" value="621-AZV3002S-13"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZV3002S-13?qs=ma0NyvTRVt0EcfML8tbxlQ%3D%3D"/>
+      <property name="Arrow Part Number" value="AZV3002S-13"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/azv3002s-13/diodes-incorporated?utm_currency=USD&amp;region=nac"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>a9f0165c-82c8-444f-b4fb-e4c970d26230</tstamps>
+    </comp>
+    <comp ref="ID901">
+      <value>BOARD_STACKUP_MARKER</value>
+      <footprint>RD-Symbols-Silkscreen:STACKUP_ID_2L_SML</footprint>
+      <description>PCB stackup layer identification marker (non-electrical)</description>
+      <fields>
+        <field name="Footprint">RD-Symbols-Silkscreen:STACKUP_ID_2L_SML</field>
+        <field name="Datasheet"/>
+        <field name="Description">PCB stackup layer identification marker (non-electrical)</field>
+      </fields>
+      <libsource lib="Ryan-Dynamics" part="BOARD_STACKUP_MARKER" description="PCB stackup layer identification marker (non-electrical)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="pcb stackup layer id marker fabrication"/>
+      <property name="ki_fp_filters" value="STACKUP_ID_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>0ba8947d-9882-41c9-b287-a1bcd7c00991</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>KLDX-0202-B</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>DC Barrel Jack with an internal switch</description>
+      <fields>
+        <field name="Footprint">Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">DC Barrel Jack with an internal switch</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <property name="ki_fp_filters" value="BarrelJack*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>df88275c-21be-4f51-927c-c9d387f1824c</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>EBWA-02-B</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>c905a094-c188-4145-991c-5b2f257c7b49</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>EBWA-02-B</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>2b5be414-2dfd-4d7e-abd7-dd52fe8b71f6</tstamps>
+    </comp>
+    <comp ref="J104">
+      <value>KLDX-0202-B</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>DC Barrel Jack with an internal switch</description>
+      <fields>
+        <field name="Footprint">Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">DC Barrel Jack with an internal switch</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <property name="ki_fp_filters" value="BarrelJack*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>498193e3-6a87-4d04-8222-86d952444a9a</tstamps>
+    </comp>
+    <comp ref="Q201">
+      <value>MCU18P10Y-TP</value>
+      <footprint>MCU18P10Y-TP:DPAK_MCC</footprint>
+      <datasheet>MCU18P10Y-TP</datasheet>
+      <fields>
+        <field name="Footprint">MCU18P10Y-TP:DPAK_MCC</field>
+        <field name="Datasheet">MCU18P10Y-TP</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU18P10Y-TP" part="MCU18P10Y-TP" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="MCU18P10Y-TP"/>
+      <property name="ki_fp_filters" value="DPAK_MCC DPAK_MCC-M DPAK_MCC-L"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>d1546e2a-14ce-420a-b6cc-9dfca1249087</tstamps>
+    </comp>
+    <comp ref="Q501">
+      <value>BC846</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf</datasheet>
+      <description>0.1A Ic, 65V Vce, NPN Transistor, SOT-23</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf</field>
+        <field name="Description">0.1A Ic, 65V Vce, NPN Transistor, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC846" description="0.1A Ic, 65V Vce, NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>6e875c9f-e25f-42e5-b15a-1c878f800d83</tstamps>
+    </comp>
+    <comp ref="Q502">
+      <value>MCU18P10Y-TP</value>
+      <footprint>MCU18P10Y-TP:DPAK_MCC</footprint>
+      <datasheet>MCU18P10Y-TP</datasheet>
+      <fields>
+        <field name="Footprint">MCU18P10Y-TP:DPAK_MCC</field>
+        <field name="Datasheet">MCU18P10Y-TP</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU18P10Y-TP" part="MCU18P10Y-TP" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="MCU18P10Y-TP"/>
+      <property name="ki_fp_filters" value="DPAK_MCC DPAK_MCC-M DPAK_MCC-L"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>6901a247-a88e-4f73-80c3-95d612e76b5d</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>d7a6ba0c-057a-40b3-a2bc-7fb2d822c5e8</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>6cbd110e-52ac-44f8-bbb3-ebfb429eb26d</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>39k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>8fde494d-9ebe-4621-a28c-37db431a0df7</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>85f9ac57-2530-486a-b378-356ca7d61772</tstamps>
+    </comp>
+    <comp ref="R303">
+      <value>58k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>7864d761-cc0a-48c7-ace6-787944f14363</tstamps>
+    </comp>
+    <comp ref="R304">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>fc5e87da-79fb-4b01-9e76-65dcb4179f51</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>06bb017b-7082-43f7-9867-d27e8ecfa741</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>792476a8-701b-4a77-8a1c-5619d4971cf8</tstamps>
+    </comp>
+    <comp ref="R403">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>c6c593f3-7402-4879-83bc-5d68bffcc79c</tstamps>
+    </comp>
+    <comp ref="R501">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>6beb1c29-08ab-4ebe-a047-1134823c3759</tstamps>
+    </comp>
+    <comp ref="R502">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>725bfd4a-26d4-4edf-bf1d-55f595d23377</tstamps>
+    </comp>
+    <comp ref="R503">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>ce225bdc-9536-4982-982c-a5a9220a5edb</tstamps>
+    </comp>
+    <comp ref="R504">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>e5d2ffe8-b101-48f3-a8d1-f6f971f4b4c8</tstamps>
+    </comp>
+    <comp ref="R601">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>1f4c1d07-6ca3-42e3-a23d-4ccfac1fd68d</tstamps>
+    </comp>
+    <comp ref="R602">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>36923f16-1ea0-4075-92e5-d9a06f578ed7</tstamps>
+    </comp>
+    <comp ref="R701">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>48cc4ae3-db5e-4c79-9bec-de78434babb8</tstamps>
+    </comp>
+    <comp ref="R801">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>f262e68d-78f9-4fe9-8d9a-e8d6a80cccd7</tstamps>
+    </comp>
+    <comp ref="R802">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>3e80d280-ce4e-4447-b750-9f9d13344e59</tstamps>
+    </comp>
+    <comp ref="TP201">
+      <value>VIN</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>307e7370-a176-45fe-b435-a0d809a591fb</tstamps>
+    </comp>
+    <comp ref="TP202">
+      <value>VPROT</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>db2ebd1e-ec48-44fc-8818-32c8119abc93</tstamps>
+    </comp>
+    <comp ref="TP301">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>c3cff1c0-80eb-4748-b11a-3184baca2c05</tstamps>
+    </comp>
+    <comp ref="TP302">
+      <value>V_OV</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>8601a1ff-ec07-4012-aa26-883e53d7b554</tstamps>
+    </comp>
+    <comp ref="TP303">
+      <value>V_UV</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>46c251d9-3440-40f8-8342-8a34715442a0</tstamps>
+    </comp>
+    <comp ref="TP401">
+      <value>VREF_2V5</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>d1ff3e23-265b-48ba-a87f-ab4b36999fe9</tstamps>
+    </comp>
+    <comp ref="TP402">
+      <value>VCC_5V</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>f3957d70-02aa-40f4-8a45-23c01ed451e0</tstamps>
+    </comp>
+    <comp ref="TP501">
+      <value>VOUT</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>70c76440-cbe3-4b24-b8a5-8d0b3ce84872</tstamps>
+    </comp>
+    <comp ref="U401">
+      <value>LM4040DBZ-5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</datasheet>
+      <description>5.000V Precision Micropower Shunt Voltage Reference, SOT-23</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</field>
+        <field name="Description">5.000V Precision Micropower Shunt Voltage Reference, SOT-23</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="LM4040DBZ-5" description="5.000V Precision Micropower Shunt Voltage Reference, SOT-23"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="diode device voltage reference shunt"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Schematic/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>1135fc22-0e5e-4c3b-abbd-ae94188a0945</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AZV3002S-13" part="AZV3002S-13">
+      <description>Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V</description>
+      <docs>https://www.diodes.com//assets/Datasheets/AZV3001.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AZV3002S-13</field>
+        <field name="Footprint">Package_SO:Diodes_SO-8EP</field>
+        <field name="Datasheet">https://www.diodes.com//assets/Datasheets/AZV3001.pdf</field>
+        <field name="Description">Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">AZV3002S-13</field>
+        <field name="Mouser Part Number">621-AZV3002S-13</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZV3002S-13?qs=ma0NyvTRVt0EcfML8tbxlQ%3D%3D</field>
+        <field name="Arrow Part Number">AZV3002S-13</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/azv3002s-13/diodes-incorporated?utm_currency=USD&amp;region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTPUT1" type="passive"/>
+        <pin num="2" name="INPUT1-" type="passive"/>
+        <pin num="3" name="INPUT1+" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="INPUT2+" type="passive"/>
+        <pin num="6" name="INPUT2-" type="passive"/>
+        <pin num="7" name="OUTPUT2" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">DC Barrel Jack with an internal switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148WS">
+      <description>75V 0.15A Fast switching Diode, SOD-323</description>
+      <docs>https://www.vishay.com/docs/85751/1n4148ws.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148WS</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85751/1n4148ws.pdf</field>
+        <field name="Description">75V 0.15A Fast switching Diode, SOD-323</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU18P10Y-TP" part="MCU18P10Y-TP">
+      <docs>MCU18P10Y-TP</docs>
+      <footprints>
+        <fp>DPAK_MCC</fp>
+        <fp>DPAK_MCC-M</fp>
+        <fp>DPAK_MCC-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MCU18P10Y-TP</field>
+        <field name="Footprint">MCU18P10Y-TP:DPAK_MCC</field>
+        <field name="Datasheet">MCU18P10Y-TP</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="LM4040DBZ-5">
+      <description>5.000V Precision Micropower Shunt Voltage Reference, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4040DBZ-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</field>
+        <field name="Description">5.000V Precision Micropower Shunt Voltage Reference, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Ryan-Dynamics" part="BOARD_STACKUP_MARKER">
+      <description>PCB stackup layer identification marker (non-electrical)</description>
+      <footprints>
+        <fp>STACKUP_ID_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">ID?</field>
+        <field name="Value">BOARD_STACKUP_MARKER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">PCB stackup layer identification marker (non-electrical)</field>
+      </fields>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC846">
+      <description>0.1A Ic, 65V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC846</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf</field>
+        <field name="Description">0.1A Ic, 65V Vce, NPN Transistor, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AZV3002S-13">
+      <uri>/github/workspace/Libraries/LIB_AZV3002S-13/AZV3002S-13/KiCad/AZV3002S-13.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="MCU18P10Y-TP">
+      <uri>/github/workspace/Libraries/ul_MCU18P10Y-TP/KiCADv6/2026-02-05_11-18-21.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="EN_OK" class="Default">
+      <node ref="D701" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D702" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R501" pin="2" pintype="passive"/>
+      <node ref="R701" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="GND" class="Default">
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C402" pin="2" pintype="passive"/>
+      <node ref="C601" pin="2" pintype="passive"/>
+      <node ref="C602" pin="2" pintype="passive"/>
+      <node ref="H901" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H902" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H903" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H904" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="IC601" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J101" pin="2" pintype="passive"/>
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J103" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J104" pin="2" pintype="passive"/>
+      <node ref="Q501" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="R302" pin="1" pintype="passive"/>
+      <node ref="R304" pin="1" pintype="passive"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="R502" pin="2" pintype="passive"/>
+      <node ref="R504" pin="2" pintype="passive"/>
+      <node ref="R701" pin="1" pintype="passive"/>
+      <node ref="TP301" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U401" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(D201-A)" class="Default">
+      <node ref="D201" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q201" pin="1" pintype="input"/>
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="R202" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D501-A)" class="Default">
+      <node ref="D501" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q501" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q502" pin="1" pintype="input"/>
+      <node ref="R503" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(IC601-INPUT1+)" class="Default">
+      <node ref="C601" pin="1" pintype="passive"/>
+      <node ref="IC601" pin="3" pinfunction="INPUT1+" pintype="passive"/>
+      <node ref="R601" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(IC601-INPUT2-)" class="Default">
+      <node ref="C602" pin="1" pintype="passive"/>
+      <node ref="IC601" pin="6" pinfunction="INPUT2-" pintype="passive"/>
+      <node ref="R602" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(Q501-B)" class="Default">
+      <node ref="Q501" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R501" pin="1" pintype="passive"/>
+      <node ref="R502" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="OV_OK" class="Default">
+      <node ref="D701" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC601" pin="7" pinfunction="OUTPUT2" pintype="passive"/>
+      <node ref="R802" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="UV_OK" class="Default">
+      <node ref="D702" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC601" pin="1" pinfunction="OUTPUT1" pintype="passive"/>
+      <node ref="R801" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="VCC_5V" class="Default">
+      <node ref="C402" pin="1" pintype="passive"/>
+      <node ref="IC601" pin="8" pinfunction="VCC" pintype="passive"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="R403" pin="1" pintype="passive"/>
+      <node ref="TP402" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U401" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="11" name="VIN" class="Default">
+      <node ref="J101" pin="1" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q201" pin="2" pintype="passive"/>
+      <node ref="TP201" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="VOUT" class="Default">
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J104" pin="1" pintype="passive"/>
+      <node ref="Q502" pin="2" pintype="passive"/>
+      <node ref="R504" pin="1" pintype="passive"/>
+      <node ref="TP501" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="VPROT" class="Default">
+      <node ref="D201" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D501" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q201" pin="3" pintype="passive"/>
+      <node ref="Q502" pin="3" pintype="passive"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="R303" pin="2" pintype="passive"/>
+      <node ref="R403" pin="2" pintype="passive"/>
+      <node ref="R503" pin="2" pintype="passive"/>
+      <node ref="TP202" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="VREF_2V5" class="Default">
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="IC601" pin="2" pinfunction="INPUT1-" pintype="passive"/>
+      <node ref="IC601" pin="5" pinfunction="INPUT2+" pintype="passive"/>
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="TP401" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="VSENSE_OV" class="Default">
+      <node ref="R303" pin="1" pintype="passive"/>
+      <node ref="R304" pin="2" pintype="passive"/>
+      <node ref="R602" pin="1" pintype="passive"/>
+      <node ref="R802" pin="1" pintype="passive"/>
+      <node ref="TP303" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="16" name="VSENSE_UV" class="Default">
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="R601" pin="2" pintype="passive"/>
+      <node ref="R801" pin="1" pintype="passive"/>
+      <node ref="TP302" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(J101-Pad3)" class="Default">
+      <node ref="J101" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(J104-Pad3)" class="Default">
+      <node ref="J104" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U401-NC-Pad3)" class="Default">
+      <node ref="U401" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
