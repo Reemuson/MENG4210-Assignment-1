@@ -467,7 +467,7 @@ import:
       COMMENT: Schematic in PDF format
       COLOR_THEME: @COLOR_THEME@
       DIR: @SCHEMATIC_DIR@
-      DEFAULT_FONT: 'KiCad Font'
+      DEFAULT_FONT: 'Times New Roman'
 
   # Fabrication Document in PDF format
   - file: kibot_out_pdf_fabrication.yaml
@@ -588,7 +588,7 @@ definitions:
 
   # Schematic parameters =======================================================
 
-  COLOR_THEME: Kicad Default
+  COLOR_THEME: Altium_Theme
   SHEET_WKS: ${KIPRJMOD}/Templates/KDT_Template_PCB_GIT_A4.kicad_wks
   FAB_SCALING: 1
   ASSEMBLY_SCALING: 1
