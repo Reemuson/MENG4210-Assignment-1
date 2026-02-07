@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-s3bc70q8/Input-Protection.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-d6b2z80n/Input-Protection.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.6+1")
     (textvar (name "ASSEMBLY_NOTES"))

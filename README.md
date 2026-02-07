@@ -2,11 +2,11 @@
   <img alt="Logo" width="33%" src="Logos/logo-mark-colour.png">
 </p>
 
-<h1 align="center">INPUT PROTECTION</h1>
+<h1 align="center">Input Protection</h1>
 
 <p align="center" width="100%">
-  <a href="/actions/workflows/ci.yaml">
-    <img alt="CI Badge" src="/actions/workflows/ci.yaml/badge.svg?branch=">
+  <a href="https://github.com/Reemuson/MENG4210-Assignment-1/actions/workflows/ci.yaml">
+    <img alt="CI Badge" src="https://github.com/Reemuson/MENG4210-Assignment-1/actions/workflows/ci.yaml/badge.svg?branch=">
   </a>
 </p>
 
