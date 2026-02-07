@@ -9,7 +9,7 @@
     <textvar name="COMPANY">University of Newcastle</textvar>
     <textvar name="DESIGNER">R. HICKS</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">6998296</textvar>
+    <textvar name="GIT_HASH_PCB">1cf1da6</textvar>
     <textvar name="GIT_HASH_SCH">a736dc4</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Assignment-1</textvar>
     <textvar name="PROJECT_NAME">Assignment 1</textvar>
@@ -18,8 +18,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">06-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-06</textvar>
+    <textvar name="RELEASE_DATE">07-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-07</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -87,7 +87,7 @@
     </sheet>
     <sheet number="2" name="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/">
       <title_block>
-        <title>Block Diagram</title>
+        <title>BLOCK DIAGRAM</title>
         <company>University of Newcastle</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
@@ -123,7 +123,7 @@
     </sheet>
     <sheet number="4" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
-        <title>Revision History</title>
+        <title>REVISION HISTORY</title>
         <company>University of Newcastle</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
