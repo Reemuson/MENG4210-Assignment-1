@@ -10,7 +10,7 @@
     <textvar name="DESIGNER">R. HICKS</textvar>
     <textvar name="FABRICATION_NOTES"/>
     <textvar name="GIT_HASH_PCB">1cf1da6</textvar>
-    <textvar name="GIT_HASH_SCH">aea0273</textvar>
+    <textvar name="GIT_HASH_SCH">9521b57</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Assignment-1</textvar>
     <textvar name="PROJECT_NAME">Assignment 1</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>

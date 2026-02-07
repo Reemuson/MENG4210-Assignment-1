@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-mc_xh49z/Input-Protection.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-s3bc70q8/Input-Protection.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.6+1")
     (textvar (name "ASSEMBLY_NOTES"))
@@ -9,7 +9,7 @@
     (textvar (name "DESIGNER") "R. HICKS")
     (textvar (name "FABRICATION_NOTES"))
     (textvar (name "GIT_HASH_PCB") "1cf1da6")
-    (textvar (name "GIT_HASH_SCH") "aea0273")
+    (textvar (name "GIT_HASH_SCH") "9521b57")
     (textvar (name "GIT_URL") "https://github.com/Reemuson/MENG4210-Assignment-1")
     (textvar (name "PROJECT_NAME") "Assignment 1")
     (textvar (name "RELEASE_BODY_1.0.0"))
