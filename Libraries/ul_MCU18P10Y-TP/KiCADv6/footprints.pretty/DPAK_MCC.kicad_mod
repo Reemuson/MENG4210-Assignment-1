@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "MCU18P10Y-TP ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 7.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ee81763f-02c3-46f8-818a-d34bd7f949d3")
@@ -17,9 +17,10 @@
 		)
 	)
 	(property "Value" "DPAK_MCC"
-		(at 0 0 0)
+		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "3a9e6b5d-6ce9-4fc2-aa11-9b42f5aafab8")
 		(effects
 			(font
@@ -102,6 +103,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "13f9392c-f956-4dce-93bb-f82e9b6cccb1")
+	)
+	(fp_poly
+		(pts
+			(xy -1.524 5.08) (xy -1.016 4.572) (xy -1.016 5.588)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "200827d7-eb95-4196-a1e1-d2e647963bcf")
 	)
 	(fp_line
 		(start -3.6068 -3.3528)
@@ -343,57 +356,11 @@
 		(layer "F.Fab")
 		(uuid "95ccde4a-8e9e-4b88-bd0a-8420e2df97f1")
 	)
-	(fp_text user "*"
-		(at -5.207 5.1435 0)
-		(layer "F.SilkS")
-		(uuid "1e14a7f7-807a-4706-ae9e-22cbb93298ee")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -5.207 5.1435 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "6b9de3a7-edb0-4df0-8ef3-5e009c7a7f1d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6cbc772d-0cd7-4df3-bea9-f35c910c75f0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.286 2.8448 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "81a90ae1-32d1-41e6-a3f3-2980bd883b0d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.286 2.8448 0)
-		(layer "F.Fab")
-		(uuid "8fd4938a-24d1-488b-8d95-8bb9308b2241")
 		(effects
 			(font
 				(size 1 1)

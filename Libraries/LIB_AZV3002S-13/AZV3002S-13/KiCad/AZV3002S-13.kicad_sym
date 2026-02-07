@@ -6,17 +6,17 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
-			(at 31.75 7.62 0)
+		(property "Reference" "U"
+			(at 10.16 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "AZV3002S-13"
-			(at 31.75 5.08 0)
+			(at 10.16 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,11 +45,12 @@
 			)
 		)
 		(property "Description" "Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V"
-			(at 0 0 0)
+			(at 10.16 -4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -123,29 +124,30 @@
 				(hide yes)
 			)
 		)
-		(symbol "AZV3002S-13_1_1"
-			(rectangle
-				(start 5.08 2.54)
-				(end 30.48 -10.16)
+		(symbol "AZV3002S-13_0_1"
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy 12.7 0) (xy 0 6.35) (xy 0 -6.35)
+				)
 				(stroke
-					(width 0.254)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 5.08 8.89 270)
 				(length 5.08)
-				(name "OUTPUT1"
+				(name "V+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,9 +156,29 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at 5.08 -8.89 90)
 				(length 5.08)
-				(name "INPUT1-"
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AZV3002S-13_1_1"
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 5.08)
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -172,9 +194,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 0)
+				(at -5.08 -2.54 0)
 				(length 5.08)
-				(name "INPUT1+"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -190,16 +212,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 0)
+				(at 17.78 0 180)
 				(length 5.08)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -207,46 +229,12 @@
 					)
 				)
 			)
+		)
+		(symbol "AZV3002S-13_2_1"
 			(pin passive line
-				(at 35.56 0 180)
+				(at -5.08 2.54 0)
 				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 35.56 -2.54 180)
-				(length 5.08)
-				(name "OUTPUT2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 35.56 -5.08 180)
-				(length 5.08)
-				(name "INPUT2-"
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -262,9 +250,9 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -7.62 180)
+				(at -5.08 -2.54 0)
 				(length 5.08)
-				(name "INPUT2+"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -272,6 +260,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)

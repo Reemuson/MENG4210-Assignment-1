@@ -516,6 +516,22 @@
       },
       {
         "bus_width": 12,
+        "name": "12V_OK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgb(0, 132, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "17V_OK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgb(0, 0, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -530,6 +546,14 @@
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "name": "EN_OK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
+        "schematic_color": "rgb(0, 194, 194)",
+        "wire_width": 6
       },
       {
         "bus_width": 12,
@@ -633,13 +657,21 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "VSENSE",
+        "name": "VSENSE_12V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 7,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "VSENSE_17V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgb(0, 0, 194)",
         "wire_width": 6
       }
     ],
@@ -658,12 +690,12 @@
         "pattern": "VREF_2V5"
       },
       {
-        "netclass": "VSENSE",
-        "pattern": "VSENSE_UV"
+        "netclass": "VSENSE_12V",
+        "pattern": "VSENSE_12V"
       },
       {
-        "netclass": "VSENSE",
-        "pattern": "VSENSE_OV"
+        "netclass": "VSENSE_17V",
+        "pattern": "VSENSE_17V"
       },
       {
         "netclass": "Power VIN",
@@ -680,6 +712,18 @@
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "12V_OK",
+        "pattern": "12V_OK"
+      },
+      {
+        "netclass": "17V_OK",
+        "pattern": "17V_OK"
+      },
+      {
+        "netclass": "EN_OK",
+        "pattern": "EN_OK"
       }
     ]
   },
@@ -698,7 +742,7 @@
     "page_layout_descr_file": "Templates/KDT_Template_PCB_GIT_A4.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 900,
+    "annotate_start_num": 800,
     "bom_export_filename": "Manufacturing/Assembly/KDT_Hierarchical_KiBot-bom-k8.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -778,6 +822,84 @@
           "group_by": false,
           "label": "Config",
           "name": "Config",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage_Rating",
+          "name": "Voltage_Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
           "show": false
         }
       ],

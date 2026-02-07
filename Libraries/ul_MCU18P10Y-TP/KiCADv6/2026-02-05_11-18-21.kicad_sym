@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "MCU18P10Y-TP"
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf"
 			(at 0 0 0)
 			(effects
 				(font

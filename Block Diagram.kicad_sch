@@ -5,7 +5,7 @@
 	(uuid "d4440dba-022e-49b2-97f2-6fc1871c7304")
 	(paper "A3")
 	(title_block
-		(title "Block Diagram")
+		(title "BLOCK DIAGRAM")
 		(date "2025-01-12")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -610,14 +610,14 @@
 		)
 		(uuid "11e64421-736a-42af-9a25-95ee829c7839")
 	)
-	(text_box "?? - ?? V"
+	(text_box "-50 - +50 V"
 		(exclude_from_sim no)
 		(at 375.412 203.2 0)
-		(size 24.13 7.62)
+		(size 25.908 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -1004,14 +1004,14 @@
 		)
 		(uuid "79a60212-4382-435d-b74b-f889451ff3a1")
 	)
-	(text_box "Input voltage:"
+	(text_box "INPUT VOLTAGE:"
 		(exclude_from_sim no)
 		(at 329.692 203.2 0)
-		(size 41.91 7.62)
+		(size 47.498 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -1121,14 +1121,14 @@
 		)
 		(uuid "88cc83e7-7bb4-4d6b-9595-b9e1bee5e04b")
 	)
-	(text_box "Target specifications:"
+	(text_box "TARGET SPECIFICATIONS:"
 		(exclude_from_sim no)
 		(at 325.882 194.31 0)
 		(size 73.66 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -1283,14 +1283,14 @@
 		)
 		(uuid "a9743942-0f35-4d97-920c-63913a3a8cf5")
 	)
-	(text_box "Spec 2"
+	(text_box "OUTPUT VOLTAGE:"
 		(exclude_from_sim no)
 		(at 329.692 210.82 0)
-		(size 43.18 7.62)
+		(size 46.228 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
