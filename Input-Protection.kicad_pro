@@ -968,7 +968,7 @@
       "Block Diagram"
     ],
     [
-      "c5103ceb-5325-4a84-a025-9638a412984e",
+      "f1dbe170-ca74-4ed0-a9ca-74c74760f7d0",
       "Schematic"
     ],
     [
@@ -977,7 +977,7 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "",
+    "ASSEMBLY_NOTES": "ASSEMBLY NOTES",
     "BOARD_NAME": "Input Protection",
     "COMPANY": "University of Newcastle",
     "DESIGNER": "R. HICKS",
@@ -997,8 +997,8 @@
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
     "RELEASE_TITLE_1.1.0": "",
-    "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
-    "REVISION": "+ (Unreleased)",
+    "RELEASE_TITLE_UNRELEASED": "",
+    "REVISION": "",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
@@ -1039,6 +1039,6 @@
     "SHEET_NAME_7": "......................................",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "DRAFT"
+    "VARIANT": ""
   }
 }

@@ -1832,9 +1832,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "c5103ceb-5325-4a84-a025-9638a412984e")
+		(uuid "f1dbe170-ca74-4ed0-a9ca-74c74760f7d0")
 		(property "Sheetname" "Schematic"
-			(at 299.72 312.6609 0)
+			(at 299.72 312.9784 0)
 			(effects
 				(font
 					(face "Times New Roman")
