@@ -58,56 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|120565645|65650000|7200748b-464f-4d9e-9d66-4e882be90c42|5b965dfe-8fc4-4106-abc5-cd08572c24fa",
-          "Fiducial footprint"
-        ],
-        [
-          "clearance|120565645|65650000|7200748b-464f-4d9e-9d66-4e882be90c42|a550a537-3b9e-4773-aab2-224051fed68e",
-          "Fiducial footprint"
-        ],
-        [
-          "clearance|120565645|97650000|5a652b4a-8642-44fe-a421-2baa36e0b70d|9af56e3e-f275-4473-b55b-7c9566c972b6",
-          "Fiducial footprint"
-        ],
-        [
-          "clearance|120565645|97650000|5a652b4a-8642-44fe-a421-2baa36e0b70d|ca97e941-e826-4f9f-9220-d6a565d1e451",
-          "Fiducial footprint"
-        ],
-        [
-          "clearance|182565645|65650000|43f74d1a-af1d-434e-8ac0-10b8b1a51d15|0dc8671e-7235-4ea3-a330-86a64465a39d",
-          "Fiducial footprint"
-        ],
-        [
-          "clearance|182565645|65650000|43f74d1a-af1d-434e-8ac0-10b8b1a51d15|4678cf38-5254-402f-a4da-8e7e5f3051eb",
-          "Fiducial footprint"
-        ],
-        [
-          "solder_mask_bridge|120565645|65650000|5b965dfe-8fc4-4106-abc5-cd08572c24fa|7200748b-464f-4d9e-9d66-4e882be90c42",
-          "Fiducial footprint"
-        ],
-        [
-          "solder_mask_bridge|120565645|65650000|a550a537-3b9e-4773-aab2-224051fed68e|7200748b-464f-4d9e-9d66-4e882be90c42",
-          "Fiducial footprint"
-        ],
-        [
-          "solder_mask_bridge|120565645|97650000|9af56e3e-f275-4473-b55b-7c9566c972b6|5a652b4a-8642-44fe-a421-2baa36e0b70d",
-          "Fiducial footprint"
-        ],
-        [
-          "solder_mask_bridge|120565645|97650000|ca97e941-e826-4f9f-9220-d6a565d1e451|5a652b4a-8642-44fe-a421-2baa36e0b70d",
-          "Fiducial footprint"
-        ],
-        [
-          "solder_mask_bridge|182565645|65650000|0dc8671e-7235-4ea3-a330-86a64465a39d|43f74d1a-af1d-434e-8ac0-10b8b1a51d15",
-          "Fiducial footprint"
-        ],
-        [
-          "solder_mask_bridge|182565645|65650000|4678cf38-5254-402f-a4da-8e7e5f3051eb|43f74d1a-af1d-434e-8ac0-10b8b1a51d15",
-          "Fiducial footprint"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

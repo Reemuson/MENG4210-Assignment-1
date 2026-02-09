@@ -1111,16 +1111,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 96.52) (xy 171.45 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b438af3c-ef9f-478e-9736-f43702c34d44")
-	)
-	(wire
-		(pts
 			(xy 187.96 82.55) (xy 189.23 82.55)
 		)
 		(stroke
@@ -1932,7 +1922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 133.35 93.98 0)
 			(effects
 				(font
@@ -1941,7 +1931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 133.35 93.98 0)
 			(effects
 				(font
@@ -1950,7 +1940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 138.43 93.98 0)
 			(effects
 				(font
@@ -2114,7 +2104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 179.07 80.01 0)
 			(effects
 				(font
@@ -2123,7 +2113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 179.07 80.01 0)
 			(effects
 				(font
@@ -2132,7 +2122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 173.99 80.01 0)
 			(effects
 				(font
@@ -2148,72 +2138,6 @@
 			(project "Input-Protection"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb"
 					(reference "TP403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 171.45 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8445b95-4103-4cf8-940f-4b4aad7f785c")
-		(property "Reference" "TP402"
-			(at 174.625 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "GND"
-			(at 174.625 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 171.45 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 171.45 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87cd303f-0835-4722-95dd-4bdf617ba219")
-		)
-		(instances
-			(project "Input-Protection"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb"
-					(reference "TP402")
 					(unit 1)
 				)
 			)
