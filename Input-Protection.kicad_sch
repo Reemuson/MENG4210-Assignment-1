@@ -1097,7 +1097,7 @@
 	)
 	(text "TOP VIEW"
 		(exclude_from_sim no)
-		(at 22.86 166.37 0)
+		(at 27.94 166.37 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1334,7 +1334,6 @@
 		(at 26.67 255.27 0)
 		(effects
 			(font
-				(face "Arial")
 				(size 5 5)
 				(bold yes)
 				(color 53 60 207 1)
@@ -1484,7 +1483,7 @@
 	)
 	(text_box "kibot_image_png_3d_viewer_angled_top"
 		(exclude_from_sim no)
-		(at 22.86 166.37 0)
+		(at 27.94 166.37 0)
 		(size 69.85 78.74)
 		(margins 1.905 1.905 1.905 1.905)
 		(stroke
@@ -1613,6 +1612,51 @@
 		(uuid "dee96870-b977-4804-a805-318fe8afe5f2")
 	)
 	(sheet
+		(at 299.72 313.69)
+		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "179513e0-5d54-46f9-91b6-4a13d6971432")
+		(property "Sheetname" "ARCHITECTURE"
+			(at 299.72 312.9784 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Project Architecture.kicad_sch"
+			(at 300.99 314.96 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Input-Protection"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 340.36 302.26)
 		(size 35.56 5.08)
 		(exclude_from_sim no)
@@ -1627,7 +1671,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6e125bd6-2f99-4e5d-b3ea-4899f4540739")
-		(property "Sheetname" "Revision History"
+		(property "Sheetname" "REVISION HISTORY"
 			(at 340.36 300.99 0)
 			(effects
 				(font
@@ -1652,97 +1696,7 @@
 		(instances
 			(project "Input-Protection"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 299.72 302.26)
-		(size 35.56 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "82da9dbf-ba38-4d08-ba35-a220fa2963b1")
-		(property "Sheetname" "Block Diagram"
-			(at 299.72 301.2309 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.905 1.905)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Block Diagram.kicad_sch"
-			(at 300.99 303.53 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Input-Protection"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 299.72 313.69)
-		(size 35.56 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f1dbe170-ca74-4ed0-a9ca-74c74760f7d0")
-		(property "Sheetname" "Schematic"
-			(at 299.72 312.9784 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.905 1.905)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Schematic.kicad_sch"
-			(at 300.99 314.96 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Input-Protection"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "3")
+					(page "10")
 				)
 			)
 		)
