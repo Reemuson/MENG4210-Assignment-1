@@ -18,7 +18,7 @@
 5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
 	WHEN VIEWED FROM THE TOP.</textvar>
     <textvar name="BOARD_NAME">INPUT PROTECTION</textvar>
-    <textvar name="COMPANY">UNIVERSITY OF NEWCASTLE</textvar>
+    <textvar name="COMPANY">RYAN DYNAMICS</textvar>
     <textvar name="DESIGNER">R. HICKS</textvar>
     <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
 
@@ -30,13 +30,13 @@
 3)	SEE SEPARATE DRILL FILES WITH ".DRL" SUFFIX 
 	FOR HOLE LOCATIONS.
 
-4)	SURFACE FINISH: IMMERSION GOLD
+4)	SURFACE FINISH: HAL LEAD-FREE
 
 5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
-	BE LPI, COLOR BLACK.
+	BE LPI, COLOR GREEN.
 
 6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER 
-	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.
+	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.
 
 7)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS 
 	AND Pb FREE FOR MANUFACTURING
@@ -51,17 +51,17 @@
 
 9)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
-	BOARD SIZE				80.000 × 40.000 mm
-	BOARD THICKNESS		1.660 mm
-	TRACE WIDTH			0.200 mm
+	BOARD SIZE		80.000 × 40.000 mm
+	BOARD THICKNESS		1.590 mm
+	TRACE WIDTH		0.200 mm
 	TRACE TO TRACE		-0.000 mm
-	MIN. HOLE (PTH)			0.250 mm
-	MIN. HOLE (NPTH)		N/A mm
-	ANNULAR RING			0.150 mm
+	MIN. HOLE (PTH)		0.250 mm
+	MIN. HOLE (NPTH)	N/A mm
+	ANNULAR RING		0.150 mm
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
-	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">7282ad3</textvar>
+	HOLE TO HOLE		0.254 mm</textvar>
+    <textvar name="GIT_HASH_PCB">5cc19be</textvar>
     <textvar name="GIT_HASH_SCH">3eaf265</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Assignment-1</textvar>
     <textvar name="PROJECT_NAME">ASSIGNMENT 1</textvar>
@@ -79,7 +79,7 @@
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION">+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
-    <textvar name="SHEET_NAME_10">......................................</textvar>
+    <textvar name="SHEET_NAME_10">REVISION HISTORY</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
     <textvar name="SHEET_NAME_12">......................................</textvar>
     <textvar name="SHEET_NAME_13">......................................</textvar>
@@ -89,7 +89,7 @@
     <textvar name="SHEET_NAME_17">......................................</textvar>
     <textvar name="SHEET_NAME_18">......................................</textvar>
     <textvar name="SHEET_NAME_19">......................................</textvar>
-    <textvar name="SHEET_NAME_2">Block Diagram</textvar>
+    <textvar name="SHEET_NAME_2">ARCHITECTURE</textvar>
     <textvar name="SHEET_NAME_20">......................................</textvar>
     <textvar name="SHEET_NAME_21">......................................</textvar>
     <textvar name="SHEET_NAME_22">......................................</textvar>
@@ -100,7 +100,7 @@
     <textvar name="SHEET_NAME_27">......................................</textvar>
     <textvar name="SHEET_NAME_28">......................................</textvar>
     <textvar name="SHEET_NAME_29">......................................</textvar>
-    <textvar name="SHEET_NAME_3">Schematic</textvar>
+    <textvar name="SHEET_NAME_3">1. INTERCONNECTS</textvar>
     <textvar name="SHEET_NAME_30">......................................</textvar>
     <textvar name="SHEET_NAME_31">......................................</textvar>
     <textvar name="SHEET_NAME_32">......................................</textvar>
@@ -111,18 +111,18 @@
     <textvar name="SHEET_NAME_37">......................................</textvar>
     <textvar name="SHEET_NAME_38">......................................</textvar>
     <textvar name="SHEET_NAME_39">......................................</textvar>
-    <textvar name="SHEET_NAME_4">Revision History</textvar>
+    <textvar name="SHEET_NAME_4">2. POLARITY PROTECTION</textvar>
     <textvar name="SHEET_NAME_40">......................................</textvar>
-    <textvar name="SHEET_NAME_5">......................................</textvar>
-    <textvar name="SHEET_NAME_6">......................................</textvar>
-    <textvar name="SHEET_NAME_7">......................................</textvar>
-    <textvar name="SHEET_NAME_8">......................................</textvar>
-    <textvar name="SHEET_NAME_9">......................................</textvar>
+    <textvar name="SHEET_NAME_5">3. SENSING</textvar>
+    <textvar name="SHEET_NAME_6">4. POWER</textvar>
+    <textvar name="SHEET_NAME_7">5. COMPARATOR</textvar>
+    <textvar name="SHEET_NAME_8">6. PASS ELEMENT</textvar>
+    <textvar name="SHEET_NAME_9">9. MISCELLANEOUS</textvar>
     <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
-        <company>UNIVERSITY OF NEWCASTLE</company>
+        <company>RYAN DYNAMICS</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Input-Protection.kicad_sch</source>
@@ -140,7 +140,7 @@
     <sheet number="2" name="/ARCHITECTURE/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/">
       <title_block>
         <title>ARCHITECTURE</title>
-        <company>UNIVERSITY OF NEWCASTLE</company>
+        <company>RYAN DYNAMICS</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
@@ -158,7 +158,7 @@
     <sheet number="3" name="/ARCHITECTURE/1. INTERCONNECTS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/32cee8b0-6a3f-4d4b-95ab-f37a093db9e1/">
       <title_block>
         <title>1. INTERCONNECTS</title>
-        <company>UNIVERSITY OF NEWCASTLE</company>
+        <company>RYAN DYNAMICS</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Interconnects.kicad_sch</source>
@@ -176,7 +176,7 @@
     <sheet number="4" name="/ARCHITECTURE/2. POLARITY PROTECTION/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/cd66c87a-9b31-43d3-8cad-51547ddb89e3/">
       <title_block>
         <title>2. POLARITY PROTECTION</title>
-        <company>UNIVERSITY OF NEWCASTLE</company>
+        <company>RYAN DYNAMICS</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Polarity Protection.kicad_sch</source>
@@ -194,7 +194,7 @@
     <sheet number="5" name="/ARCHITECTURE/3. SENSING/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7/">
       <title_block>
         <title>3. SENSING</title>
-        <company>UNIVERSITY OF NEWCASTLE</company>
+        <company>RYAN DYNAMICS</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Sensing.kicad_sch</source>
@@ -212,7 +212,7 @@
     <sheet number="6" name="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/">
       <title_block>
         <title>4. POWER</title>
-        <company>UNIVERSITY OF NEWCASTLE</company>
+        <company>RYAN DYNAMICS</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Power.kicad_sch</source>
@@ -230,7 +230,7 @@
     <sheet number="7" name="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/">
       <title_block>
         <title>5. COMPARATOR</title>
-        <company>UNIVERSITY OF NEWCASTLE</company>
+        <company>RYAN DYNAMICS</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Comparator.kicad_sch</source>
@@ -248,7 +248,7 @@
     <sheet number="8" name="/ARCHITECTURE/6. PASS ELEMENT/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/36cd8cc6-947f-4fd5-9d23-9f2b4bebe773/">
       <title_block>
         <title>6. PASS ELEMENT</title>
-        <company>UNIVERSITY OF NEWCASTLE</company>
+        <company>RYAN DYNAMICS</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Pass Element.kicad_sch</source>
@@ -266,7 +266,7 @@
     <sheet number="9" name="/ARCHITECTURE/9. MISCELLANEOUS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/5ae0d288-e475-479b-8bbb-cfc6b6e51123/">
       <title_block>
         <title>9. MISCELLANEOUS</title>
-        <company>UNIVERSITY OF NEWCASTLE</company>
+        <company>RYAN DYNAMICS</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Miscellaneous.kicad_sch</source>
@@ -284,7 +284,7 @@
     <sheet number="10" name="/REVISION HISTORY/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
         <title>REVISION HISTORY</title>
-        <company>UNIVERSITY OF NEWCASTLE</company>
+        <company>RYAN DYNAMICS</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
@@ -796,13 +796,11 @@
     </comp>
     <comp ref="TP401">
       <value>VREF_2V5</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>test point</description>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="4. POWER"/>
@@ -813,34 +811,13 @@
       <sheetpath names="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/"/>
       <tstamps>d1ff3e23-265b-48ba-a87f-ab4b36999fe9</tstamps>
     </comp>
-    <comp ref="TP402">
-      <value>GND</value>
-      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <description>test point</description>
-      <fields>
-        <field name="Footprint">TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value="4. POWER"/>
-      <property name="Sheetfile" value="Power.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/"/>
-      <tstamps>f8445b95-4103-4cf8-940f-4b4aad7f785c</tstamps>
-    </comp>
     <comp ref="TP403">
       <value>VCC_5V</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>test point</description>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="4. POWER"/>
@@ -1109,13 +1086,11 @@
     </comp>
     <comp ref="TP501">
       <value>12V_OK</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>test point</description>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="5. COMPARATOR"/>
@@ -1128,13 +1103,11 @@
     </comp>
     <comp ref="TP502">
       <value>17V_OK</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>test point</description>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="5. COMPARATOR"/>
@@ -1846,7 +1819,6 @@
       <node ref="TP101" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP104" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP301" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP402" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U401" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U501" pin="4" pinfunction="GND" pintype="passive"/>
     </net>
