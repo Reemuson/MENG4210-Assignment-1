@@ -164,7 +164,7 @@
 	(property "RELEASE_TITLE_UNRELEASED" "")
 	(property "REVISION" "")
 	(property "SHEET_NAME_1" "COVER PAGE")
-	(property "SHEET_NAME_10" "................................")
+	(property "SHEET_NAME_10" "REVISION HISTORY")
 	(property "SHEET_NAME_11" "................................")
 	(property "SHEET_NAME_12" "................................")
 	(property "SHEET_NAME_13" "................................")
@@ -174,7 +174,7 @@
 	(property "SHEET_NAME_17" "................................")
 	(property "SHEET_NAME_18" "................................")
 	(property "SHEET_NAME_19" "................................")
-	(property "SHEET_NAME_2" "BLOCK DIAGRAM")
+	(property "SHEET_NAME_2" "ARCHITECTURE")
 	(property "SHEET_NAME_20" "................................")
 	(property "SHEET_NAME_21" "................................")
 	(property "SHEET_NAME_22" "................................")
@@ -185,7 +185,7 @@
 	(property "SHEET_NAME_27" "................................")
 	(property "SHEET_NAME_28" "................................")
 	(property "SHEET_NAME_29" "................................")
-	(property "SHEET_NAME_3" "SCHEMATIC")
+	(property "SHEET_NAME_3" "1. INTERCONNECTS")
 	(property "SHEET_NAME_30" "................................")
 	(property "SHEET_NAME_31" "................................")
 	(property "SHEET_NAME_32" "................................")
@@ -196,13 +196,13 @@
 	(property "SHEET_NAME_37" "................................")
 	(property "SHEET_NAME_38" "................................")
 	(property "SHEET_NAME_39" "................................")
-	(property "SHEET_NAME_4" "REVISION HISTORY")
+	(property "SHEET_NAME_4" "2. POLARITY PROTECTION")
 	(property "SHEET_NAME_40" "................................")
-	(property "SHEET_NAME_5" "................................")
-	(property "SHEET_NAME_6" "................................")
-	(property "SHEET_NAME_7" "................................")
-	(property "SHEET_NAME_8" "................................")
-	(property "SHEET_NAME_9" "................................")
+	(property "SHEET_NAME_5" "3. SENSING")
+	(property "SHEET_NAME_6" "4. POWER")
+	(property "SHEET_NAME_7" "5. COMPARATOR")
+	(property "SHEET_NAME_8" "6. PASS ELEMENT")
+	(property "SHEET_NAME_9" "9. MISCELLANEOUS")
 	(property "VARIANT" "")
 	(net 0 "")
 	(net 1 "Net-(U501A-+)")
@@ -962,6 +962,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8f974e1f-8d6e-4356-a4f0-39291f80e0c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" "VDS > 100 V, ID > 2 A, P-channel device suitable for high-side switching"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dca0dd19-056e-4e10-99e0-23f50dae1d08")
 			(effects
 				(font
 					(size 1 1)
@@ -1773,7 +1786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1786,7 +1799,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2181,7 +2194,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2194,7 +2207,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4077,7 +4090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4090,7 +4103,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4801,6 +4814,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ab2df293-98c5-4b59-805a-ea4660cb66f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" "VDS > 100 V, ID > 2 A, P-channel device suitable for high-side switching"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0d98077-8c61-41c4-9b66-e79db6977f4d")
 			(effects
 				(font
 					(size 1 1)
@@ -5565,7 +5591,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5578,7 +5604,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6093,7 +6119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6106,7 +6132,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7092,7 +7118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7105,7 +7131,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7821,7 +7847,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7834,7 +7860,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7851,7 +7877,7 @@
 		(path "/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7/c3cff1c0-80eb-4748-b11a-3184baca2c05")
 		(sheetname "/ARCHITECTURE/3. SENSING/")
 		(sheetfile "Sensing.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
 			(end 0.95 -0.95)
@@ -8906,7 +8932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8919,7 +8945,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13359,7 +13385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13372,7 +13398,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

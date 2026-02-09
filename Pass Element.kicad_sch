@@ -1571,6 +1571,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" "VCEO > 65 V for 50 V rail, IC small, used as gate pull-down switch"
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7a4ef71a-b79a-46e0-a604-6c2e79a5d13a")
 		)
@@ -1654,6 +1663,15 @@
 		)
 		(property "MPN" "MCU18P10Y-TP"
 			(at 152.4 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "VDS > 100 V, ID > 2 A, P-channel device suitable for high-side switching"
+			(at 152.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,6 +1899,15 @@
 			)
 		)
 		(property "MPN" "D3Z10BF-7"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "VZ = 10 V, suitable for input over-voltage clamping"
 			(at 144.78 78.74 0)
 			(effects
 				(font

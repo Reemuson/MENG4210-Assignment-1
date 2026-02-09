@@ -28,6 +28,7 @@ outputs:
       - "Description"
       - "@MAN_FIELD@"
       - "@MPN_FIELD@"
+      - "Supplier"
       - "Supplier Part Number"
       # - "arrow#"
       # - "digikey#"
@@ -36,6 +37,7 @@ outputs:
       # - "newark#"
       # - "rs#"
       # - "tme#"
+      - "Notes"
 
 ...
 definitions:

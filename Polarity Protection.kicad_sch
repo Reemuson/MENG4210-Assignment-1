@@ -1294,6 +1294,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" "VZ = 10 V, suitable for input over-voltage clamping"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eecd44bf-0a0c-4b9b-8c4d-f6c004486369")
 		)
@@ -1448,6 +1457,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" "VDS > 100 V, ID > 2 A, P-channel device suitable for high-side switching"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c61ee8d9-701e-4132-951f-8142ab552c6d")
 		)
@@ -1564,7 +1582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.5mm"
 			(at 170.18 59.69 0)
 			(effects
 				(font

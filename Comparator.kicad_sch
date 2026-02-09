@@ -2326,7 +2326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.0mm"
 			(at 87.63 66.04 0)
 			(effects
 				(font
@@ -2392,7 +2392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.5mm"
 			(at 208.28 72.39 0)
 			(effects
 				(font
@@ -2824,6 +2824,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" "Dual comparator, low supply current, wide supply voltage range, suitable for voltage threshold detection"
+			(at 130.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "8042ad5b-4e50-4e3c-9b74-304ab72755c8")
 		)
@@ -2951,7 +2960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.0mm"
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -3203,6 +3212,15 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
+			(at 195.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Fast switching diode, low leakage, used for diode-AND logic gating of control signals"
 			(at 195.58 85.09 0)
 			(effects
 				(font
@@ -3565,6 +3583,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" "Dual comparator, low supply current, wide supply voltage range, suitable for voltage threshold detection"
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "7750da21-4b39-478b-953d-73463348bfb7")
 		)
@@ -3679,6 +3706,15 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Fast switching diode, low leakage, used for diode-AND logic gating of control signals"
 			(at 195.58 72.39 0)
 			(effects
 				(font

@@ -1421,6 +1421,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" "VREF = 5.0 V, low temperature coefficient, suitable for precision threshold VREF"
+			(at 168.91 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "624c3945-c75e-472e-ac5a-ef232b8a48d6")
 		)
@@ -1922,7 +1931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.0mm"
 			(at 133.35 93.98 0)
 			(effects
 				(font
@@ -2104,7 +2113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.0mm"
 			(at 179.07 80.01 0)
 			(effects
 				(font
