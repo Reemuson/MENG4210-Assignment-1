@@ -2,7 +2,7 @@
   <img alt="Logo" width="33%" src="Logos/logo-mark-colour.png">
 </p>
 
-<h1 align="center">Input Protection</h1>
+<h1 align="center">INPUT PROTECTION</h1>
 
 <p align="center" width="100%">
   <a href="https://github.com/Reemuson/MENG4210-Assignment-1/actions/workflows/ci.yaml">
@@ -28,7 +28,7 @@
 
 | Parameter | Value | 
 | --- | --- |
-| Dimensions | N/A × N/A mm |
+| Dimensions | 80.0 × 40.0 mm |
 
 ***
 
