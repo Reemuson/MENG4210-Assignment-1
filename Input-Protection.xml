@@ -47,13 +47,13 @@
 		UL94V-0 REQUIREMENTS.
 	B.	Tg 170 C OR EQUIVALENT.
 	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
-		HALOGEN FREE AND APPROVED BY UNIVERSITY OF NEWCASTLE.
+		HALOGEN FREE AND APPROVED BY RYAN DYNAMICS.
 
 9)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
-	BOARD SIZE		80.000 × 40.000 mm
+	BOARD SIZE			80.000 × 40.000 mm
 	BOARD THICKNESS		1.590 mm
-	TRACE WIDTH		0.200 mm
+	TRACE WIDTH			0.200 mm
 	TRACE TO TRACE		-0.000 mm
 	MIN. HOLE (PTH)		0.250 mm
 	MIN. HOLE (NPTH)	N/A mm
@@ -61,7 +61,7 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE		0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">5cc19be</textvar>
+    <textvar name="GIT_HASH_PCB">8faafd3</textvar>
     <textvar name="GIT_HASH_SCH">3eaf265</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Assignment-1</textvar>
     <textvar name="PROJECT_NAME">ASSIGNMENT 1</textvar>
@@ -383,11 +383,11 @@
     </comp>
     <comp ref="TP101">
       <value>GND</value>
-      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -402,11 +402,11 @@
     </comp>
     <comp ref="TP102">
       <value>VIN</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -421,11 +421,11 @@
     </comp>
     <comp ref="TP103">
       <value>VOUT</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -440,11 +440,11 @@
     </comp>
     <comp ref="TP104">
       <value>GND</value>
-      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -465,6 +465,7 @@
       <fields>
         <field name="Manufacturer">Diodes Incorporated</field>
         <field name="MPN">D3Z10BF-7</field>
+        <field name="Notes">VZ = 10 V, suitable for input over-voltage clamping</field>
         <field name="Footprint">Diode_SMD:D_SOD-323_HandSoldering</field>
         <field name="Datasheet">https://www.diodes.com/assets/Datasheets/D3ZxVxBF.pdf</field>
         <field name="Description">DIODE ZENER 10V 400MW SOD323F</field>
@@ -472,6 +473,7 @@
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
       <property name="Manufacturer" value="Diodes Incorporated"/>
       <property name="MPN" value="D3Z10BF-7"/>
+      <property name="Notes" value="VZ = 10 V, suitable for input over-voltage clamping"/>
       <property name="Sheetname" value="2. POLARITY PROTECTION"/>
       <property name="Sheetfile" value="Polarity Protection.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -487,6 +489,7 @@
       <fields>
         <field name="Manufacturer">MCC (Micro Commercial Components)</field>
         <field name="MPN">MCU18P10Y-TP</field>
+        <field name="Notes">VDS &gt; 100 V, ID &gt; 2 A, P-channel device suitable for high-side switching</field>
         <field name="Footprint">MCU18P10Y-TP:DPAK_MCC</field>
         <field name="Datasheet">https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf</field>
         <field name="Description">MOSFET P-CH 100V 18A DPAK</field>
@@ -494,6 +497,7 @@
       <libsource lib="MCU18P10Y-TP" part="MCU18P10Y-TP" description=""/>
       <property name="Manufacturer" value="MCC (Micro Commercial Components)"/>
       <property name="MPN" value="MCU18P10Y-TP"/>
+      <property name="Notes" value="VDS &gt; 100 V, ID &gt; 2 A, P-channel device suitable for high-side switching"/>
       <property name="Sheetname" value="2. POLARITY PROTECTION"/>
       <property name="Sheetfile" value="Polarity Protection.kicad_sch"/>
       <property name="ki_keywords" value="MCU18P10Y-TP"/>
@@ -539,11 +543,11 @@
     </comp>
     <comp ref="TP201">
       <value>VPROT</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -630,11 +634,11 @@
     </comp>
     <comp ref="TP301">
       <value>GND</value>
-      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -648,11 +652,11 @@
     </comp>
     <comp ref="TP302">
       <value>VSENSE_12V</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -667,11 +671,11 @@
     </comp>
     <comp ref="TP303">
       <value>VSENSE_17V</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -796,9 +800,9 @@
     </comp>
     <comp ref="TP401">
       <value>VREF_2V5</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -813,9 +817,9 @@
     </comp>
     <comp ref="TP403">
       <value>VCC_5V</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -836,6 +840,7 @@
       <fields>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="MPN">LM4040CIM3-5.0/NOPB</field>
+        <field name="Notes">VREF = 5.0 V, low temperature coefficient, suitable for precision threshold VREF</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</field>
         <field name="Description">5.000V Precision Micropower Shunt Voltage Reference, SOT-23</field>
@@ -843,6 +848,7 @@
       <libsource lib="Reference_Voltage" part="LM4040DBZ-5" description="5.000V Precision Micropower Shunt Voltage Reference, SOT-23"/>
       <property name="Manufacturer" value="Texas Instruments"/>
       <property name="MPN" value="LM4040CIM3-5.0/NOPB"/>
+      <property name="Notes" value="VREF = 5.0 V, low temperature coefficient, suitable for precision threshold VREF"/>
       <property name="Sheetname" value="4. POWER"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="diode device voltage reference shunt"/>
@@ -916,6 +922,7 @@
         <field name="Sim.Pins">1=K 2=A</field>
         <field name="Manufacturer">Diotec Semiconductor</field>
         <field name="MPN">1N4148WS</field>
+        <field name="Notes">Fast switching diode, low leakage, used for diode-AND logic gating of control signals</field>
         <field name="Footprint">Diode_SMD:D_SOD-323</field>
         <field name="Datasheet">https://diotec.com/request/datasheet/1n4148ws.pdf</field>
         <field name="Description">DIODE STANDARD 75V 150MA SOD323F</field>
@@ -925,6 +932,7 @@
       <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Manufacturer" value="Diotec Semiconductor"/>
       <property name="MPN" value="1N4148WS"/>
+      <property name="Notes" value="Fast switching diode, low leakage, used for diode-AND logic gating of control signals"/>
       <property name="Sheetname" value="5. COMPARATOR"/>
       <property name="Sheetfile" value="Comparator.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -942,6 +950,7 @@
         <field name="Sim.Pins">1=K 2=A</field>
         <field name="Manufacturer">Diotec Semiconductor</field>
         <field name="MPN">1N4148WS</field>
+        <field name="Notes">Fast switching diode, low leakage, used for diode-AND logic gating of control signals</field>
         <field name="Footprint">Diode_SMD:D_SOD-323</field>
         <field name="Datasheet">https://diotec.com/request/datasheet/1n4148ws.pdf</field>
         <field name="Description">DIODE STANDARD 75V 150MA SOD323F</field>
@@ -951,6 +960,7 @@
       <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Manufacturer" value="Diotec Semiconductor"/>
       <property name="MPN" value="1N4148WS"/>
+      <property name="Notes" value="Fast switching diode, low leakage, used for diode-AND logic gating of control signals"/>
       <property name="Sheetname" value="5. COMPARATOR"/>
       <property name="Sheetfile" value="Comparator.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -1086,9 +1096,9 @@
     </comp>
     <comp ref="TP501">
       <value>12V_OK</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1103,9 +1113,9 @@
     </comp>
     <comp ref="TP502">
       <value>17V_OK</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1120,11 +1130,11 @@
     </comp>
     <comp ref="TP503">
       <value>EN_OK</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -1145,6 +1155,7 @@
       <fields>
         <field name="Manufacturer">Diodes Incorporated</field>
         <field name="MPN">AZV3002S-13</field>
+        <field name="Notes">Dual comparator, low supply current, wide supply voltage range, suitable for voltage threshold detection</field>
         <field name="Footprint">Package_SO:Diodes_SO-8EP</field>
         <field name="Datasheet">https://www.diodes.com//assets/Datasheets/AZV3001.pdf</field>
         <field name="Description">Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V</field>
@@ -1152,6 +1163,7 @@
       <libsource lib="AZV3002S-13" part="AZV3002S-13" description="Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V"/>
       <property name="Manufacturer" value="Diodes Incorporated"/>
       <property name="MPN" value="AZV3002S-13"/>
+      <property name="Notes" value="Dual comparator, low supply current, wide supply voltage range, suitable for voltage threshold detection"/>
       <property name="Sheetname" value="5. COMPARATOR"/>
       <property name="Sheetfile" value="Comparator.kicad_sch"/>
       <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
@@ -1165,6 +1177,7 @@
       <fields>
         <field name="Manufacturer">Diodes Incorporated</field>
         <field name="MPN">D3Z10BF-7</field>
+        <field name="Notes">VZ = 10 V, suitable for input over-voltage clamping</field>
         <field name="Footprint">Diode_SMD:D_SOD-323_HandSoldering</field>
         <field name="Datasheet">https://www.diodes.com/assets/Datasheets/D3ZxVxBF.pdf</field>
         <field name="Description">DIODE ZENER 10V 400MW SOD323F</field>
@@ -1172,6 +1185,7 @@
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
       <property name="Manufacturer" value="Diodes Incorporated"/>
       <property name="MPN" value="D3Z10BF-7"/>
+      <property name="Notes" value="VZ = 10 V, suitable for input over-voltage clamping"/>
       <property name="Sheetname" value="6. PASS ELEMENT"/>
       <property name="Sheetfile" value="Pass Element.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -1187,6 +1201,7 @@
       <fields>
         <field name="Manufacturer">Nexperia USA Inc.</field>
         <field name="MPN">BC846</field>
+        <field name="Notes">VCEO &gt; 65 V for 50 V rail, IC small, used as gate pull-down switch</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BC846X-Q_SER.pdf</field>
         <field name="Description">TRANS NPN 65V 0.1A TO-236AB</field>
@@ -1194,6 +1209,7 @@
       <libsource lib="Transistor_BJT" part="BC846" description="0.1A Ic, 65V Vce, NPN Transistor, SOT-23"/>
       <property name="Manufacturer" value="Nexperia USA Inc."/>
       <property name="MPN" value="BC846"/>
+      <property name="Notes" value="VCEO &gt; 65 V for 50 V rail, IC small, used as gate pull-down switch"/>
       <property name="Sheetname" value="6. PASS ELEMENT"/>
       <property name="Sheetfile" value="Pass Element.kicad_sch"/>
       <property name="ki_keywords" value="NPN Transistor"/>
@@ -1209,6 +1225,7 @@
       <fields>
         <field name="Manufacturer">MCC (Micro Commercial Components)</field>
         <field name="MPN">MCU18P10Y-TP</field>
+        <field name="Notes">VDS &gt; 100 V, ID &gt; 2 A, P-channel device suitable for high-side switching</field>
         <field name="Footprint">MCU18P10Y-TP:DPAK_MCC</field>
         <field name="Datasheet">https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf</field>
         <field name="Description">MOSFET P-CH 100V 18A DPAK</field>
@@ -1216,6 +1233,7 @@
       <libsource lib="MCU18P10Y-TP" part="MCU18P10Y-TP" description=""/>
       <property name="Manufacturer" value="MCC (Micro Commercial Components)"/>
       <property name="MPN" value="MCU18P10Y-TP"/>
+      <property name="Notes" value="VDS &gt; 100 V, ID &gt; 2 A, P-channel device suitable for high-side switching"/>
       <property name="Sheetname" value="6. PASS ELEMENT"/>
       <property name="Sheetfile" value="Pass Element.kicad_sch"/>
       <property name="ki_keywords" value="MCU18P10Y-TP"/>
