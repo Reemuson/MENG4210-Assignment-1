@@ -47,7 +47,7 @@
 		UL94V-0 REQUIREMENTS.
 	B.	Tg 170 C OR EQUIVALENT.
 	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
-		HALOGEN FREE AND APPROVED BY RYAN DYNAMICS.
+		HALOGEN FREE AND APPROVED BY UNIVERSITY OF NEWCASTLE.
 
 9)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
@@ -61,7 +61,7 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE		0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">359c9aa</textvar>
+    <textvar name="GIT_HASH_PCB">5b6d6fa</textvar>
     <textvar name="GIT_HASH_SCH">3eaf265</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Assignment-1</textvar>
     <textvar name="PROJECT_NAME">ASSIGNMENT 1</textvar>
