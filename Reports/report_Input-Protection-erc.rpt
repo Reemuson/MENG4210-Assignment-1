@@ -1,4 +1,4 @@
-ERC report (2026-02-10T11:29:43+0000, Encoding UTF8)
+ERC report (2026-02-10T12:11:05+0000, Encoding UTF8)
 
 ***** Sheet /
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
@@ -60,6 +60,10 @@ ERC report (2026-02-10T11:29:43+0000, Encoding UTF8)
 [lib_symbol_issues]: The current configuration does not include the symbol library 'Ryan-Dynamics'
     ; warning
     @(1.397 mm, 0.7747 mm): Symbol ID901 [BOARD_STACKUP_MARKER]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(1.0922 mm, 1.6891 mm): Symbol TP507 [TestPoint]
 
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
     ; warning
@@ -147,4 +151,4 @@ ERC report (2026-02-10T11:29:43+0000, Encoding UTF8)
 ***** Sheet /ARCHITECTURE/6. PASS ELEMENT/
 ***** Sheet /ARCHITECTURE/9. MISCELLANEOUS/
 ***** Sheet /REVISION HISTORY/
- ** ERC messages: 34  Errors 0  Warnings 34
+ ** ERC messages: 35  Errors 0  Warnings 35
