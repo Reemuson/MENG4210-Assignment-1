@@ -912,7 +912,7 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -990,7 +990,7 @@
           "group_by": false,
           "label": "Notes",
           "name": "Notes",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -1091,7 +1091,7 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tDO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)\tDO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)\tIF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n\tFILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)\tCONFORMAL COATING IS NOT REQUIRED.\n\n5)\tDOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n\tWHEN VIEWED FROM THE TOP.",
+    "ASSEMBLY_NOTES": "ASSEMBLY NOTES",
     "BOARD_NAME": "INPUT PROTECTION",
     "COMPANY": "RYAN DYNAMICS",
     "DESIGNER": "R. HICKS",

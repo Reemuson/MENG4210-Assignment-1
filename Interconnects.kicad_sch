@@ -1845,6 +1845,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "EBWA-02-B"
+			(at 177.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cd89badc-9107-4022-92e9-eb989d0d2f76")
 		)
@@ -2275,6 +2284,15 @@
 			)
 		)
 		(property "Manufacturer" "Kycon Inc"
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KLDX-0202-B"
 			(at 187.96 91.44 0)
 			(effects
 				(font
