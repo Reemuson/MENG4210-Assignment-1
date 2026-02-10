@@ -1,4 +1,4 @@
-ERC report (2026-02-09T13:05:36+0000, Encoding UTF8)
+ERC report (2026-02-10T11:10:26+0000, Encoding UTF8)
 
 ***** Sheet /
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
@@ -16,6 +16,30 @@ ERC report (2026-02-09T13:05:36+0000, Encoding UTF8)
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
     ; warning
     @(1.778 mm, 0.9398 mm): Symbol TP104 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(1.3843 mm, 0.9398 mm): Symbol TP401 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(1.8288 mm, 0.8001 mm): Symbol TP402 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(1.651 mm, 0.5969 mm): Symbol TP201 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(1.2954 mm, 0.9652 mm): Symbol TP301 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(1.4351 mm, 0.7493 mm): Symbol TP302 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(1.7272 mm, 0.7493 mm): Symbol TP303 [TestPoint]
 
 [footprint_link_issues]: Footprint 'Fiducial_Cross_0.5mm_Mask2mm' not found in library 'Fiducial'.
     ; warning
@@ -39,51 +63,88 @@ ERC report (2026-02-09T13:05:36+0000, Encoding UTF8)
 
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
     ; warning
-    @(1.651 mm, 0.5969 mm): Symbol TP201 [TestPoint]
+    @(1.7907 mm, 1.0033 mm): Symbol TP501 [TestPoint]
 
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
     ; warning
-    @(1.2954 mm, 0.9652 mm): Symbol TP301 [TestPoint]
+    @(1.7907 mm, 1.6002 mm): Symbol TP502 [TestPoint]
 
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
     ; warning
-    @(1.4351 mm, 0.7493 mm): Symbol TP302 [TestPoint]
+    @(2.4638 mm, 1.0033 mm): Symbol TP503 [TestPoint]
 
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
     ; warning
-    @(1.7272 mm, 0.7493 mm): Symbol TP303 [TestPoint]
+    @(2.4892 mm, 1.6002 mm): Symbol TP504 [TestPoint]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.6416 mm, 1.3081 mm): Vertical Wire, length 0.1842 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.6416 mm, 1.49225 mm): Symbol JP501 Pin 2 [B, Passive, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.6416 mm, 1.56845 mm): Vertical Wire, length 0.0571 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.7305 mm, 1.49225 mm): Symbol JP502 Pin 2 [B, Passive, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.7305 mm, 1.3081 mm): Vertical Wire, length 0.1842 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.7305 mm, 1.6256 mm): Vertical Wire, length 0.0571 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.8194 mm, 1.3081 mm): Vertical Wire, length 0.1842 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.8194 mm, 1.49225 mm): Symbol JP503 Pin 2 [B, Passive, Line]
 
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
     ; warning
-    @(1.3843 mm, 0.9398 mm): Symbol TP401 [TestPoint]
+    @(3.0353 mm, 1.0033 mm): Symbol TP505 [TestPoint]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.8194 mm, 1.6256 mm): Vertical Wire, length 0.0571 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.8956 mm, 1.51765 mm): Symbol R509 Pin 2 [Passive, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.8956 mm, 1.51765 mm): Vertical Wire, length 0.1080 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2.8956 mm, 1.59385 mm): Vertical Wire, length 0.0318 mm
 
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
     ; warning
-    @(1.7399 mm, 0.8001 mm): Symbol TP403 [TestPoint]
-
-[lib_symbol_mismatch]: Symbol 'AZV3002S-13' doesn't match copy in library 'AZV3002S-13'
-    ; warning
-    @(0.6731 mm, 0.6604 mm): Symbol U501 [AZV3002S-13]
-
-[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
-    ; warning
-    @(0.9271 mm, 0.6604 mm): Symbol TP501 [TestPoint]
-
-[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
-    ; warning
-    @(1.5621 mm, 0.6604 mm): Symbol TP502 [TestPoint]
-
-[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
-    ; warning
-    @(2.1336 mm, 0.7239 mm): Symbol TP503 [TestPoint]
+    @(3.1115 mm, 1.6256 mm): Symbol TP506 [TestPoint]
 
 ***** Sheet /ARCHITECTURE/
 ***** Sheet /ARCHITECTURE/1. INTERCONNECTS/
 ***** Sheet /ARCHITECTURE/2. POLARITY PROTECTION/
 ***** Sheet /ARCHITECTURE/3. SENSING/
+[multiple_net_names]: Both ISENSE_P and VPROT are attached to the same items; ISENSE_P will be used in the netlist
+    ; warning
+    @(1.0414 mm, 0.7239 mm): Hierarchical Label 'ISENSE_P'
+    @(0.9271 mm, 0.5969 mm): Hierarchical Label 'VPROT'
+
 ***** Sheet /ARCHITECTURE/4. POWER/
 ***** Sheet /ARCHITECTURE/5. COMPARATOR/
 ***** Sheet /ARCHITECTURE/6. PASS ELEMENT/
 ***** Sheet /ARCHITECTURE/9. MISCELLANEOUS/
 ***** Sheet /REVISION HISTORY/
- ** ERC messages: 19  Errors 0  Warnings 19
+ ** ERC messages: 34  Errors 0  Warnings 34
