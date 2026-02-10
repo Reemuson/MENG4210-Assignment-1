@@ -768,7 +768,7 @@
 	)
 	(rectangle
 		(start 156.21 64.77)
-		(end 186.69 119.38)
+		(end 195.58 119.38)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -814,7 +814,7 @@
 	)
 	(text "[2] https://www.ti.com/lit/ds/symlink/lm4040-n.pdf?ts=1752678691365"
 		(exclude_from_sim no)
-		(at 187.96 121.92 0)
+		(at 208.28 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -823,10 +823,10 @@
 		)
 		(uuid "9f6c3e48-98d6-4ccf-bf90-2959890eef23")
 	)
-	(text_box "DESIGN NOTE:\nVREF_2V5 is generated from VCC_5V with a 100K/100K divider. A 10nF capacitor from VREF_2V5 to GND provides low-pass filtering f_c=1/(2π*50K*10n)=318Hz."
+	(text_box "DESIGN NOTE:\nVREF_2V5 is generated from VCC_5V using a 100k / 100k resistive divider. A 10n capacitor from VREF_2V5 to GND provides low-pass filtering to reduce supply noise.\n\nThe effective source resistance of the divider is 50k, giving a cutoff frequency of:\nf_{c} = 1 / (2π * 50k * 10n) = 318 Hz."
 		(exclude_from_sim no)
-		(at 58.42 106.68 0)
-		(size 60.96 12.7)
+		(at 58.42 64.77 0)
+		(size 60.96 24.13)
 		(margins 2 2 2 2)
 		(stroke
 			(width 1)
@@ -846,10 +846,10 @@
 		)
 		(uuid "aa086e7a-c64a-455d-8811-fcf016a3bfe6")
 	)
-	(text_box "DESIGN NOTE:\nPer TI [2] choose Rs such that IRMIN<IR<IRMAX (IRMAX=15mA), accounting for VIN range and load.\nWith VIN_MIN=12V, VIN_MAX=50V, VOUT=5 V, IRMIN=75µA and ILOAD_MAX≈I(2.5 V divider)+I(EN_OK pull-up)+Iq(AZV3002)≈250µA+50µA+9µA,\nRs_MAX=(VIN_MIN−VOUT)/(ILOAD_MAX+IRMIN)≈18K\nRs_MIN=(VIN_MAX−VOUT)/IRMAX≈3K. Rs=10K is selected to guarantee regulation at 12V & limit shunt current at 50V."
+	(text_box "DESIGN NOTE:\nPer TI [2], choose the series resistor R_{S} such that I_{RMIN} < I_{R} < I_{RMAX} across the full input range, while supplying the worst-case load current from VCC_5V.\nAssume:\nV_{IN,MIN} = 12 V, V_{IN,MAX} = 50 V, V_{OUT} = 5 V\nI_{RMAX} = 15 mA, I_{RMIN} = 75 uA\nWorst-case VCC_5V load current with EN_OK high is estimated as:\nI_{LOAD,MAX} = I_{DIV,2V5} + I_{Q,LM393} + I_{Q,INA169} + I_{B,NPN}\nwhere:\nI_{DIV,2V5} = 5 V / (100k + 100k) = 25 uA\nI_{Q,LM393} = 2 * 600 µA = 1.2 mA (two LM393 packages)\nI_{Q,INA169} = 125 uA\nI_{B,NPN} = (5 V − 0.7 V) / 10k = 430 uA\nNote:\nThe fault LED current is drawn only when EN_OK is low and is therefore not included in the EN_OK-high load budget.\nThus:\nI_{LOAD,MAX} = 25 uA + 1.2 mA + 125 uA + 430 uA = 1.78 mA\nThis gives:\nR_{S,MAX} = (V_{IN,MIN} − V_{OUT}) / (I_{LOAD,MAX} + I_{RMIN}) = 7 V / (1.78 mA + 0.075 mA) = 3.8k\nR_{S,MIN} = (V_{IN,MAX} − V_{OUT}) / I_{RMAX} = 45 V / 15 mA = 3k\nR_{S} (R403) is selected as 3.32k to ensure regulation at V_{IN,MIN} while limiting shunt current at V_{IN,MAX}.\n"
 		(exclude_from_sim no)
-		(at 187.96 92.71 0)
-		(size 60.96 26.67)
+		(at 208.28 50.8 0)
+		(size 67.31 68.58)
 		(margins 2 2 2 2)
 		(stroke
 			(width 1)
@@ -898,22 +898,34 @@
 		(uuid "01ab5ae4-a68d-458f-a280-124775f84647")
 	)
 	(junction
-		(at 173.99 82.55)
+		(at 182.88 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3099b1d0-e383-49a2-b18f-963f4bb8248e")
 	)
 	(junction
-		(at 158.75 82.55)
+		(at 167.64 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "360f7793-096b-4ac8-bf22-ac9116abcdad")
 	)
 	(junction
-		(at 187.96 82.55)
+		(at 158.75 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41c982d3-212c-4b74-829f-c178bb69777d")
+	)
+	(junction
+		(at 196.85 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61250dd9-e933-4b18-a634-945cf088f9c9")
+	)
+	(junction
+		(at 167.64 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d9deb9b-3228-4c5a-a67c-18003bac7110")
 	)
 	(junction
 		(at 119.38 96.52)
@@ -922,13 +934,13 @@
 		(uuid "6e6dbb16-43b4-4b63-8f76-533ba7ed96fb")
 	)
 	(junction
-		(at 168.91 96.52)
+		(at 177.8 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aab7c238-f7d4-4a5a-9cfb-9f88c049ec93")
 	)
 	(junction
-		(at 168.91 82.55)
+		(at 177.8 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7f82527-a926-4ca5-a349-9de28ed1ac7b")
@@ -951,7 +963,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 91.44) (xy 158.75 96.52)
+			(xy 158.75 96.52) (xy 167.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf31b9c-afe0-4677-82f9-b34d07d9b24a")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 167.64 96.52)
 		)
 		(stroke
 			(width 0)
@@ -961,7 +983,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 92.71) (xy 168.91 96.52)
+			(xy 158.75 82.55) (xy 167.64 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2497ef98-5cef-41f0-86d6-05c3240b072b")
+	)
+	(wire
+		(pts
+			(xy 177.8 92.71) (xy 177.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -971,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 78.74) (xy 168.91 82.55)
+			(xy 177.8 78.74) (xy 177.8 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1001,7 +1033,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 62.23) (xy 168.91 71.12)
+			(xy 177.8 62.23) (xy 177.8 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1011,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 82.55) (xy 173.99 80.01)
+			(xy 182.88 82.55) (xy 182.88 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1021,17 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 82.55) (xy 144.78 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53684895-b6be-4921-b01d-a6bc88af317e")
-	)
-	(wire
-		(pts
-			(xy 168.91 82.55) (xy 168.91 85.09)
+			(xy 177.8 82.55) (xy 177.8 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1071,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 82.55) (xy 158.75 86.36)
+			(xy 167.64 82.55) (xy 167.64 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1081,23 +1103,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 82.55) (xy 158.75 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a4c7f0-1a8a-451e-9573-2b854630fa21")
-	)
-	(wire
-		(pts
-			(xy 173.99 82.55) (xy 187.96 82.55)
+			(xy 182.88 82.55) (xy 196.85 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8a54ba07-c585-46f6-93e0-5f5daf35bbfb")
+	)
+	(wire
+		(pts
+			(xy 144.78 82.55) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c21b4ed-967a-4eea-951d-d05025a6e2a6")
 	)
 	(wire
 		(pts
@@ -1111,7 +1133,27 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 82.55) (xy 189.23 82.55)
+			(xy 158.75 82.55) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92571d7-ef20-4147-86f8-80bfd826c490")
+	)
+	(wire
+		(pts
+			(xy 144.78 82.55) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92725fe-3717-41c1-9df4-091d05431f69")
+	)
+	(wire
+		(pts
+			(xy 196.85 82.55) (xy 198.12 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1121,7 +1163,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 96.52) (xy 168.91 111.76)
+			(xy 177.8 96.52) (xy 177.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1131,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 96.52) (xy 168.91 96.52)
+			(xy 167.64 96.52) (xy 177.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1141,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 82.55) (xy 173.99 82.55)
+			(xy 177.8 82.55) (xy 182.88 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1161,6 +1203,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 91.44) (xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a5fe0a-f224-4cca-9f24-b121f0cdcd5b")
+	)
+	(wire
+		(pts
 			(xy 138.43 96.52) (xy 144.78 96.52)
 		)
 		(stroke
@@ -1171,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 82.55) (xy 158.75 82.55)
+			(xy 177.8 82.55) (xy 167.64 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1181,7 +1233,7 @@
 	)
 	(hierarchical_label "VCC_5V"
 		(shape output)
-		(at 189.23 82.55 0)
+		(at 198.12 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1192,7 +1244,7 @@
 	)
 	(hierarchical_label "VPROT"
 		(shape input)
-		(at 168.91 62.23 90)
+		(at 177.8 62.23 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1373,7 +1425,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 111.76 0)
+		(at 177.8 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1382,7 +1434,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ddda48e-8209-4343-9caa-ef8a762ef355")
 		(property "Reference" "#PWR0403"
-			(at 168.91 118.11 0)
+			(at 177.8 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,7 +1443,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 116.84 0)
+			(at 177.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 111.76 0)
+			(at 177.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 111.76 0)
+			(at 177.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 111.76 0)
+			(at 177.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1491,7 @@
 	)
 	(symbol
 		(lib_id "Reference_Voltage:LM4040DBZ-5")
-		(at 168.91 88.9 90)
+		(at 177.8 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1447,7 +1499,7 @@
 		(dnp no)
 		(uuid "2f9c337d-b594-42a7-aa9e-fec804fd5c3e")
 		(property "Reference" "U401"
-			(at 171.45 87.63 90)
+			(at 180.34 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,7 +1508,7 @@
 			)
 		)
 		(property "Value" "LM4040N-5.0"
-			(at 171.45 90.17 90)
+			(at 180.34 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1517,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 173.99 88.9 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1527,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf"
-			(at 168.91 88.9 0)
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,7 +1537,7 @@
 			)
 		)
 		(property "Description" "IC VREF SHUNT 0.5% SOT23-3"
-			(at 168.91 88.9 0)
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,7 +1546,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1555,7 @@
 			)
 		)
 		(property "MPN" "LM4040CIM3-5.0/NOPB"
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +1564,7 @@
 			)
 		)
 		(property "Notes" "VREF = 5.0 V, low temperature coefficient, suitable for precision threshold VREF"
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1573,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1582,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1591,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1600,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1609,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1618,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1627,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1636,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1645,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 168.91 88.9 90)
+			(at 177.8 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d18f929-e8c5-4d98-8eee-d96948b65aa1")
-		(property "Reference" "#FLG0904"
+		(property "Reference" "#FLG0401"
 			(at 119.38 98.425 0)
 			(effects
 				(font
@@ -1841,7 +1893,202 @@
 		(instances
 			(project "Input-Protection"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb"
-					(reference "#FLG0904")
+					(reference "#FLG0401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 167.64 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3a96f47-e1c8-40c9-a262-a92025fbf69b")
+		(property "Reference" "C403"
+			(at 170.18 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 170.18 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TPK"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X7R1C104KT"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage_Rating" "16V"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22dde3ea-a030-440e-8ce1-024d87e56e64")
+		)
+		(pin "1"
+			(uuid "9aa86b73-29e8-44fd-b29d-13532f856412")
+		)
+		(instances
+			(project "Input-Protection"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb"
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -1855,7 +2102,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a3a96f47-e1c8-40c9-a262-a92025fbf69b")
+		(uuid "a5fd4bad-27f7-435d-95a7-f64167773e2a")
 		(property "Reference" "C402"
 			(at 161.29 87.6362 0)
 			(effects
@@ -1865,7 +2112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 161.29 90.1762 0)
 			(effects
 				(font
@@ -1892,7 +2139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
+		(property "Description" "CAP CER 1UF 50V X7R 0603"
 			(at 158.75 88.9 0)
 			(effects
 				(font
@@ -1910,7 +2157,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X7R1C104KT"
+		(property "MPN" "C1608X5R0J105KT"
 			(at 158.75 88.9 0)
 			(effects
 				(font
@@ -1919,7 +2166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 158.75 88.9 0)
 			(effects
 				(font
@@ -1928,7 +2175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage_Rating" "16V"
+		(property "Voltage_Rating" "6.3V"
 			(at 158.75 88.9 0)
 			(effects
 				(font
@@ -2028,10 +2275,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "22dde3ea-a030-440e-8ce1-024d87e56e64")
+			(uuid "a77965d2-2208-4b70-b453-4a74cf004a5a")
 		)
 		(pin "1"
-			(uuid "9aa86b73-29e8-44fd-b29d-13532f856412")
+			(uuid "8164ad36-eb2c-4071-9df0-e374981a29d1")
 		)
 		(instances
 			(project "Input-Protection"
@@ -2044,7 +2291,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 187.96 82.55 180)
+		(at 196.85 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2052,8 +2299,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9d08cc8-e54e-45e0-869e-f71b683fde2a")
-		(property "Reference" "#FLG0901"
-			(at 187.96 84.455 0)
+		(property "Reference" "#FLG0402"
+			(at 196.85 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2309,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 187.9601 86.36 90)
+			(at 196.8501 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 82.55 0)
+			(at 196.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 82.55 0)
+			(at 196.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2337,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 187.96 82.55 0)
+			(at 196.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2351,7 @@
 		(instances
 			(project "Input-Protection"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb"
-					(reference "#FLG0901")
+					(reference "#FLG0402")
 					(unit 1)
 				)
 			)
@@ -2112,7 +2359,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 168.91 74.93 180)
+		(at 177.8 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2120,7 +2367,7 @@
 		(dnp no)
 		(uuid "c6c593f3-7402-4879-83bc-5d68bffcc79c")
 		(property "Reference" "R403"
-			(at 166.37 73.66 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,8 +2375,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 166.37 76.2 0)
+		(property "Value" "3.32k"
+			(at 175.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,7 +2385,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 170.688 74.93 90)
+			(at 179.578 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,7 +2394,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf"
-			(at 168.91 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,8 +2402,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/4W 1206"
-			(at 168.91 74.93 0)
+		(property "Description" "RES 3.32K OHM 1% 1/4W 1206"
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2412,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 168.91 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2421,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 168.91 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2430,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 168.91 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2439,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 168.91 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2448,7 @@
 			)
 		)
 		(property "Manufacturer" "Analog Technologies"
-			(at 168.91 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,7 +2457,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 168.91 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2466,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 168.91 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +2475,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 168.91 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2484,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 168.91 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2493,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 168.91 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +2928,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 173.99 80.01 0)
+		(at 182.88 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2689,8 +2936,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3957d70-02aa-40f4-8a45-23c01ed451e0")
-		(property "Reference" "TP403"
-			(at 176.53 75.4379 0)
+		(property "Reference" "TP402"
+			(at 185.42 75.4379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +2946,7 @@
 			)
 		)
 		(property "Value" "VCC_5V"
-			(at 176.53 77.9779 0)
+			(at 185.42 77.9779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2955,7 @@
 			)
 		)
 		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.0mm"
-			(at 179.07 80.01 0)
+			(at 187.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 80.01 0)
+			(at 187.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 80.01 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2982,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 173.99 80.01 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2991,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 173.99 80.01 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +3000,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 173.99 80.01 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +3009,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 173.99 80.01 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +3018,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 173.99 80.01 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +3027,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 173.99 80.01 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +3036,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 173.99 80.01 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +3045,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 173.99 80.01 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +3054,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 173.99 80.01 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +3068,7 @@
 		(instances
 			(project "Input-Protection"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb"
-					(reference "TP403")
+					(reference "TP402")
 					(unit 1)
 				)
 			)

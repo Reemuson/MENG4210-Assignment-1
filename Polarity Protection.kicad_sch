@@ -894,10 +894,10 @@
 		)
 		(uuid "d55cb799-4611-4650-ab23-c07b9cc33a1e")
 	)
-	(text_box "DESIGN NOTE:\nThis PMOSFET is acting as an ideal diode [1].\n\n10V zener from Gate to Source to limit VGS <= 10V under all VIN and transient conditions to protect PMOSFET. 100K Gate to Source resistor to not allow floating Gate. 100K Gate pulldown resistor so Gate is off and not affected by leakage or capacitive coupling when VIN removed or reversed."
+	(text_box "DESIGN NOTE:\nThis PMOS is acting as an ideal diode [1].\n\nA 10 V zener from gate to source limits V_{GS} <= 10 V under all VIN and transient conditions to protect the PMOS. A 100k gate to source resistor stops the gate floating. A 100k gate pulldown resistor sets default state to OFF when no voltage at VIN is present."
 		(exclude_from_sim no)
-		(at 182.88 90.17 0)
-		(size 55.88 26.67)
+		(at 182.88 92.71 0)
+		(size 55.88 24.13)
 		(margins 2 2 2 2)
 		(stroke
 			(width 1)
@@ -917,7 +917,7 @@
 		)
 		(uuid "5a996275-1d14-4b31-8d2f-397d52727e74")
 	)
-	(text_box "LAYOUT NOTE:\nLarge traces for VPROT, with 1oz copper a track width of >0.8mm is required to handle 2A of current with a FoS=2."
+	(text_box "LAYOUT NOTE:\nLarge traces for VPROT, with 1oz copper a track width of >0.8 mm is required to handle 2 A of current with a FoS = 2."
 		(exclude_from_sim no)
 		(at 93.98 96.52 0)
 		(size 30.48 20.32)
@@ -1949,7 +1949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.0mm"
 			(at 170.18 59.69 0)
 			(effects
 				(font

@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|126565645|65650000|7200748b-464f-4d9e-9d66-4e882be90c42|5b965dfe-8fc4-4106-abc5-cd08572c24fa",
+          "clearance|126565645|55650000|7200748b-464f-4d9e-9d66-4e882be90c42|5b965dfe-8fc4-4106-abc5-cd08572c24fa",
           ""
         ],
         [
-          "clearance|126565645|65650000|7200748b-464f-4d9e-9d66-4e882be90c42|a550a537-3b9e-4773-aab2-224051fed68e",
+          "clearance|126565645|55650000|7200748b-464f-4d9e-9d66-4e882be90c42|a550a537-3b9e-4773-aab2-224051fed68e",
           ""
         ],
         [
@@ -76,19 +76,19 @@
           ""
         ],
         [
-          "clearance|188565645|65650000|43f74d1a-af1d-434e-8ac0-10b8b1a51d15|0dc8671e-7235-4ea3-a330-86a64465a39d",
+          "clearance|188565645|55650000|43f74d1a-af1d-434e-8ac0-10b8b1a51d15|0dc8671e-7235-4ea3-a330-86a64465a39d",
           ""
         ],
         [
-          "clearance|188565645|65650000|43f74d1a-af1d-434e-8ac0-10b8b1a51d15|4678cf38-5254-402f-a4da-8e7e5f3051eb",
+          "clearance|188565645|55650000|43f74d1a-af1d-434e-8ac0-10b8b1a51d15|4678cf38-5254-402f-a4da-8e7e5f3051eb",
           ""
         ],
         [
-          "solder_mask_bridge|126565645|65650000|5b965dfe-8fc4-4106-abc5-cd08572c24fa|7200748b-464f-4d9e-9d66-4e882be90c42",
+          "solder_mask_bridge|126565645|55650000|5b965dfe-8fc4-4106-abc5-cd08572c24fa|7200748b-464f-4d9e-9d66-4e882be90c42",
           ""
         ],
         [
-          "solder_mask_bridge|126565645|65650000|a550a537-3b9e-4773-aab2-224051fed68e|7200748b-464f-4d9e-9d66-4e882be90c42",
+          "solder_mask_bridge|126565645|55650000|a550a537-3b9e-4773-aab2-224051fed68e|7200748b-464f-4d9e-9d66-4e882be90c42",
           ""
         ],
         [
@@ -100,11 +100,11 @@
           ""
         ],
         [
-          "solder_mask_bridge|188565645|65650000|0dc8671e-7235-4ea3-a330-86a64465a39d|43f74d1a-af1d-434e-8ac0-10b8b1a51d15",
+          "solder_mask_bridge|188565645|55650000|0dc8671e-7235-4ea3-a330-86a64465a39d|43f74d1a-af1d-434e-8ac0-10b8b1a51d15",
           ""
         ],
         [
-          "solder_mask_bridge|188565645|65650000|4678cf38-5254-402f-a4da-8e7e5f3051eb|43f74d1a-af1d-434e-8ac0-10b8b1a51d15",
+          "solder_mask_bridge|188565645|55650000|4678cf38-5254-402f-a4da-8e7e5f3051eb|43f74d1a-af1d-434e-8ac0-10b8b1a51d15",
           ""
         ]
       ],
@@ -810,7 +810,7 @@
     "page_layout_descr_file": "Templates/KDT_Template_PCB_GIT_A4.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 800,
+    "annotate_start_num": 500,
     "bom_export_filename": "Manufacturing/Assembly/KDT_Hierarchical_KiBot-bom-k8.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1075,7 +1075,7 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tDO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)\tDO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)\tIF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n\tFILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)\tCONFORMAL COATING IS NOT REQUIRED.\n\n5)\tDOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n\tWHEN VIEWED FROM THE TOP.",
+    "ASSEMBLY_NOTES": "ASSEMBLY NOTES",
     "BOARD_NAME": "INPUT PROTECTION",
     "COMPANY": "RYAN DYNAMICS",
     "DESIGNER": "R. HICKS",

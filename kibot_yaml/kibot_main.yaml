@@ -603,7 +603,7 @@ definitions:
   3D_VIEWER_ROT_Y: -1
   3D_VIEWER_ROT_Z: 1
   3D_VIEWER_ZOOM: -1
-  KEY_COLOR: '#3465a4' # Background color to remove. Use a color different from your PCB
+  KEY_COLOR: '#DC1B75' # Background color to remove. Use a color different from your PCB
 
   # Output directories =========================================================
 

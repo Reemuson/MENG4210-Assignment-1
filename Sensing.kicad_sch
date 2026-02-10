@@ -358,6 +358,19 @@
 		(uuid 4319d899-8c63-42b2-bf90-5213ae9765ca)
 	)
 	(rectangle
+		(start 95.25 55.88)
+		(end 121.92 69.85)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9dc02aab-25f4-4cd6-96e2-269a28c11a63)
+	)
+	(rectangle
 		(start 124.46 55.88)
 		(end 151.13 110.49)
 		(stroke
@@ -369,6 +382,17 @@
 			(type none)
 		)
 		(uuid e4dfafb4-610a-4829-8c35-6b3915f85402)
+	)
+	(text "SHUNT"
+		(exclude_from_sim no)
+		(at 95.25 54.61 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b31f0d5-0955-4b08-8cc0-7f4fb019f941")
 	)
 	(text "UV CONDITION"
 		(exclude_from_sim no)
@@ -392,10 +416,56 @@
 		)
 		(uuid "8157aa1f-a61b-4ff8-9a36-ce251ca7815d")
 	)
-	(text_box "DESIGN NOTE:\nVSENSE=VPROT*RBOT/(RTOP+RBOT)\nWe are comparing with 2V5 VREF, VTRIP=2.5*(RTOP+RBOT)/RBOT.\nWe'll pick RBOT=10k for stiffness which leaves:\nRTOP = 2000 * (2*VTRIP-5).\nFor 12V, RTOP=38K. For 17V, RTOP=58K."
+	(text_box "DESIGN NOTE:\nAt VPROT = 17 V, the divider current is approximately\nI_{DIV} = VPROT / (R_{TOP} + R_{BOT}) = 17 V / 68k = 250 uA,\nWhich is sufficient for the input bias of the comparators."
 		(exclude_from_sim no)
-		(at 181.61 88.9 0)
-		(size 49.53 21.59)
+		(at 181.61 111.76 0)
+		(size 49.53 20.32)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.5 1.5)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "10b386cb-a7c6-48ed-911e-95c699dd335b")
+	)
+	(text_box "DESIGN NOTE:\nThe over-current trip point is set to I_{TRIP} = 1 A.\n\nWith a shunt resistor value of R_{SHUNT} = 100m, the differential shunt voltage at the trip point is:\nV_{SENSE} = I * R_{SHUNT} = 1 A * 100m = 100 mV."
+		(exclude_from_sim no)
+		(at 87.63 83.82 0)
+		(size 34.29 26.67)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.5 1.5)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "21827e95-779d-439b-bd3f-e035e10b1143")
+	)
+	(text_box "DESIGN NOTE:\nR_{BOT} is chosen as 10k to provide a low-impedance sense node with reasonable divider current.\nSolving for R_{TOP} gives:\nR_{TOP} = R_{BOT} * (V_{TRIP} / VREF_2V5 − 1)\nWith VREF_2V5 = 2.5 V and RBOT = 10k:\nFor V_{TRIP} = 12 V:\nR_{TOP} = 10k * (12 / 2.5 − 1) = 38k\nFor V_{TRIP} = 17 V:\nR_{TOP} = 10k * (17 / 2.5 − 1) = 58k"
+		(exclude_from_sim no)
+		(at 181.61 80.01 0)
+		(size 49.53 30.48)
 		(margins 2 2 2 2)
 		(stroke
 			(width 1)
@@ -414,6 +484,29 @@
 			(justify left top)
 		)
 		(uuid "6f5e62d7-6a3f-4c27-9aea-a77d23c44464")
+	)
+	(text_box "DESIGN NOTE:\nThe protected input voltage VPROT is scaled to sense voltage VSENSE using a divider for comparison against VREF_2V5.\nVSENSE = VPROT * R_{BOT} / (R_{TOP} + R_{BOT})\nThe comparator trips when VSENSE = VREF_2V5, giving a trip voltage of\nV_{TRIP} = VREF_2V5 * (R_{TOP} + R_{BOT}) / R_{BOT}."
+		(exclude_from_sim no)
+		(at 181.61 55.88 0)
+		(size 49.53 22.86)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.5 1.5)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "71d0f9fc-9602-4d72-96f5-f61243e5595a")
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
@@ -468,10 +561,42 @@
 		(uuid "a0136533-1988-4db5-beec-70f8931db645")
 	)
 	(junction
+		(at 104.14 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6ac3ae2-09c7-4aa2-90e0-d8560bf3badc")
+	)
+	(junction
+		(at 111.76 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec888f64-1f3f-499e-873a-630c204bd375")
+	)
+	(junction
 		(at 129.54 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f739ebc3-d6f7-476e-92cc-5371c4762098")
+	)
+	(wire
+		(pts
+			(xy 111.76 59.69) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093812f2-1425-4dbf-9299-836b0f49a580")
+	)
+	(wire
+		(pts
+			(xy 111.76 59.69) (xy 111.76 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d73853a-0395-4f44-b529-47b2cd989294")
 	)
 	(wire
 		(pts
@@ -525,7 +650,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 59.69) (xy 129.54 59.69)
+			(xy 92.71 59.69) (xy 104.14 59.69)
 		)
 		(stroke
 			(width 0)
@@ -552,6 +677,16 @@
 			(type default)
 		)
 		(uuid "5054011b-98b4-464b-a4cb-1a5907741c31")
+	)
+	(wire
+		(pts
+			(xy 104.14 59.69) (xy 104.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70cb608c-d0d4-4fe2-bde9-5673a58fa164")
 	)
 	(wire
 		(pts
@@ -643,6 +778,17 @@
 		)
 		(uuid "ff4dcd2c-8d55-497b-a5d2-56e9ca01eb15")
 	)
+	(hierarchical_label "ISENSE_P"
+		(shape output)
+		(at 104.14 72.39 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37c8e142-7149-475c-a3ad-b6096255a85a")
+	)
 	(hierarchical_label "VSENSE_17V"
 		(shape output)
 		(at 172.72 113.03 270)
@@ -656,7 +802,7 @@
 	)
 	(hierarchical_label "VPROT"
 		(shape input)
-		(at 121.92 59.69 180)
+		(at 92.71 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -664,6 +810,17 @@
 			(justify right)
 		)
 		(uuid "926344b2-079f-40fa-9423-3f8d62fa194d")
+	)
+	(hierarchical_label "ISENSE_N"
+		(shape output)
+		(at 111.76 72.39 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b896f4e4-4838-4d6e-a2a3-d1511a629a22")
 	)
 	(hierarchical_label "VSENSE_12V"
 		(shape output)
@@ -767,7 +924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.0mm"
 			(at 177.8 74.93 0)
 			(effects
 				(font
@@ -963,7 +1120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7864d761-cc0a-48c7-ace6-787944f14363")
-		(property "Reference" "R303"
+		(property "Reference" "R304"
 			(at 161.29 64.7699 0)
 			(effects
 				(font
@@ -1107,7 +1264,7 @@
 		(instances
 			(project "Input-Protection"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7"
-					(reference "R303")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -1123,7 +1280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85f9ac57-2530-486a-b378-356ca7d61772")
-		(property "Reference" "R302"
+		(property "Reference" "R303"
 			(at 132.08 85.0899 0)
 			(effects
 				(font
@@ -1267,7 +1424,7 @@
 		(instances
 			(project "Input-Protection"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7"
-					(reference "R302")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -1300,7 +1457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "RD-Testpoints:TestPoint_Pad_D1.0mm"
 			(at 148.59 74.93 0)
 			(effects
 				(font
@@ -1496,7 +1653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fde494d-9ebe-4621-a28c-37db431a0df7")
-		(property "Reference" "R301"
+		(property "Reference" "R302"
 			(at 132.08 64.7699 0)
 			(effects
 				(font
@@ -1640,7 +1797,7 @@
 		(instances
 			(project "Input-Protection"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7"
-					(reference "R301")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -1795,6 +1952,172 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 107.95 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6164abb-3fe8-457d-bec0-2868eb618f62")
+		(property "Reference" "R301"
+			(at 107.95 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100m"
+			(at 107.95 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 107.95 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ohmite.com/assets/images/res-kdv.pdf"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0.1 OHM 1% 1/2W 1206"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ohmite"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KDV12FR100ET"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Current sense shunt, sets OCP trip (~1 A). Ideally should be <100m"
+			(at 107.95 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fee953a6-c0e3-4285-a30d-4185a359c4f1")
+		)
+		(pin "1"
+			(uuid "2c9870d0-74c9-4c73-9d68-8bae0abac6bf")
+		)
+		(instances
+			(project "Input-Protection"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7"
+					(reference "R301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 158.75 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1803,7 +2126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc5e87da-79fb-4b01-9e76-65dcb4179f51")
-		(property "Reference" "R304"
+		(property "Reference" "R305"
 			(at 161.29 85.0899 0)
 			(effects
 				(font
@@ -1947,7 +2270,7 @@
 		(instances
 			(project "Input-Protection"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7"
-					(reference "R304")
+					(reference "R305")
 					(unit 1)
 				)
 			)
