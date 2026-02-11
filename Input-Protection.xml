@@ -3,7 +3,7 @@
   <design>
     <source>/github/workspace/Input-Protection.kicad_sch</source>
     <date>Date1</date>
-    <tool>Eeschema 9.0.6+1</tool>
+    <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)
 
 1)	DO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.
@@ -30,7 +30,7 @@
 3)	SEE SEPARATE DRILL FILES WITH ".DRL" SUFFIX 
 	FOR HOLE LOCATIONS.
 
-4)	SURFACE FINISH: HAL LEAD-FREE
+4)	SURFACE FINISH: ENIG
 
 5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
 	BE LPI, COLOR GREEN.
@@ -47,7 +47,7 @@
 		UL94V-0 REQUIREMENTS.
 	B.	Tg 170 C OR EQUIVALENT.
 	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
-		HALOGEN FREE AND APPROVED BY RYAN DYNAMICS.
+		HALOGEN FREE AND APPROVED BY UNIVERSITY OF NEWCASTLE.
 
 9)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
@@ -61,18 +61,18 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE		0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">666f224</textvar>
+    <textvar name="GIT_HASH_PCB">e8e14d6</textvar>
     <textvar name="GIT_HASH_SCH">3eaf265</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Assignment-1</textvar>
     <textvar name="PROJECT_NAME">ASSIGNMENT 1</textvar>
-    <textvar name="RELEASE_BODY_1.0.0"/>
+    <textvar name="RELEASE_BODY_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">10-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-10</textvar>
-    <textvar name="RELEASE_TITLE_1.0.0"/>
+    <textvar name="RELEASE_DATE">11-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-11</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
@@ -118,7 +118,7 @@
     <textvar name="SHEET_NAME_7">5. COMPARATOR</textvar>
     <textvar name="SHEET_NAME_8">6. PASS ELEMENT</textvar>
     <textvar name="SHEET_NAME_9">9. MISCELLANEOUS</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -817,12 +817,13 @@
         <field name="Config"/>
         <field name="Height"/>
         <field name="Manufacturer">Ohmite</field>
-        <field name="Manufacturer Part Number">KDV12FR100ET</field>
+        <field name="Manufacturer Part Number"/>
         <field name="Manufacturer_Name"/>
         <field name="Manufacturer_Part_Number"/>
         <field name="Mouser Part Number"/>
         <field name="Mouser Price/Stock"/>
         <field name="Notes">Current sense shunt, sets OCP trip (~1 A). Ideally should be &lt;100m</field>
+        <field name="MPN">KDV12FR100ET</field>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">https://www.ohmite.com/assets/images/res-kdv.pdf</field>
         <field name="Description">RES 0.1 OHM 1% 1/2W 1206</field>
@@ -833,12 +834,13 @@
       <property name="Config" value=""/>
       <property name="Height" value=""/>
       <property name="Manufacturer" value="Ohmite"/>
-      <property name="Manufacturer Part Number" value="KDV12FR100ET"/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Manufacturer_Name" value=""/>
       <property name="Manufacturer_Part_Number" value=""/>
       <property name="Mouser Part Number" value=""/>
       <property name="Mouser Price/Stock" value=""/>
       <property name="Notes" value="Current sense shunt, sets OCP trip (~1 A). Ideally should be &lt;100m"/>
+      <property name="MPN" value="KDV12FR100ET"/>
       <property name="Sheetname" value="3. SENSING"/>
       <property name="Sheetfile" value="Sensing.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>

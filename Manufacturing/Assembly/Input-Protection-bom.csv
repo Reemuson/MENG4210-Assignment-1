@@ -9,7 +9,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 8,2,J101 J104,KLDX-0202-B,https://www.kycon.com/Catalog_PDF/KLDX_0202.pdf,BarrelJack_Kycon_KLDX-0202-xC_Horizontal,CONN PWR JACK 2.5X5.5MM SOLDER,Kycon Inc,KLDX-0202-B,,,
 9,1,Q601,BC846,https://assets.nexperia.com/documents/data-sheet/BC846X-Q_SER.pdf,SOT-23,TRANS NPN 65V 0.1A TO-236AB,Nexperia USA Inc.,BC846,,,"VCEO > 65 V for 50 V rail, IC small, used as gate pull-down switch"
 10,2,Q201 Q602,MCU18P10Y-TP,https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf,DPAK_MCC,MOSFET P-CH 100V 18A DPAK,MCC (Micro Commercial Components),MCU18P10Y-TP,,,"VDS > 100 V, ID > 2 A, P-channel device suitable for high-side switching"
-11,1,R301,100m,https://www.ohmite.com/assets/images/res-kdv.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 0.1 OHM 1% 1/2W 1206,Ohmite,,,,"Current sense shunt, sets OCP trip (~1 A). Ideally should be <100m"
+11,1,R301,100m,https://www.ohmite.com/assets/images/res-kdv.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 0.1 OHM 1% 1/2W 1206,Ohmite,KDV12FR100ET,,,"Current sense shunt, sets OCP trip (~1 A). Ideally should be <100m"
 12,3,R501 R502 R505,1k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 1K OHM 1% 1/4W 1206,Analog Technologies,,,,
 13,2,R403 R510,3.32k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 3.32K OHM 1% 1/4W 1206,Analog Technologies,,,,
 14,5,R303 R305 R508 R509 R601,10k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 10K OHM 1% 1/4W 1206,Analog Technologies,,,,
