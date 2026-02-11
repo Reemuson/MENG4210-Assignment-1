@@ -2047,7 +2047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "KDV12FR100ET"
+		(property "Manufacturer Part Number" ""
 			(at 107.95 59.69 0)
 			(effects
 				(font
@@ -2093,6 +2093,15 @@
 			)
 		)
 		(property "Notes" "Current sense shunt, sets OCP trip (~1 A). Ideally should be <100m"
+			(at 107.95 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KDV12FR100ET"
 			(at 107.95 59.69 90)
 			(effects
 				(font

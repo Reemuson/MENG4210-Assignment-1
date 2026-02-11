@@ -4,16 +4,16 @@
 
 ### Fixed
 
--   Fixes
+-   N/A
 
 ### Added
 
--   Additions
+-   Schematic capture and layout of a -50 to +50 V input +12 to +17 V output 1A protection PCBA
 
 ### Changed
 
--   Changes
+-   N/A
 
 ### Removed
 
--   Deletions
+-   N/A

@@ -93,7 +93,7 @@
 				(color "White")
 				(material "Direct Printing")
 			)
-			(copper_finish "HAL lead-free")
+			(copper_finish "ENIG")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0.05)
@@ -15971,7 +15971,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "KDV12FR100ET"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16042,6 +16042,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "efeb4422-7ba7-4f77-ae35-2796f0be62fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KDV12FR100ET"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8ad0324-91f5-4662-b885-a989c205465a")
 			(effects
 				(font
 					(size 1 1)
