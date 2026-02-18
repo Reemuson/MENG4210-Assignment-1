@@ -2,8 +2,6 @@
 
 ## [Unreleased]
 
-## [1.0.0] - 2026-02-11
-
 ### Fixed
 
 -   Tidied up some routing issues
