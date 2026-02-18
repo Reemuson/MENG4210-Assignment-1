@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-02-11
+
 ### Fixed
 
 -   Tidied up some routing issues
@@ -36,3 +38,7 @@
 ### Removed
 
 -   N/A
+
+[Unreleased]: https://github.com/Reemuson/MENG4210-Assignment-1/compare/1.0.0...HEAD
+
+[1.0.0]: https://github.com/Reemuson/MENG4210-Assignment-1/compare/a736dc43ef8961d2705dc433b7d367cf4c8fd0a9...1.0.0
