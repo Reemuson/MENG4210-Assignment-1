@@ -12,9 +12,9 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D501","1N4148WS","D_SOD-323",38.0000,40.5000,180.0000,top
 "D502","LED","LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",49.5000,23.0000,0.0000,top
 "D601","D3Z10BF-7","D_SOD-323_HandSoldering",60.0000,17.0000,180.0000,top
-"FID901","FIDUCIAL","Fiducial_Cross_0.5mm_Mask2mm",9.0000,46.0000,0.0000,top
-"FID902","FIDUCIAL","Fiducial_Cross_0.5mm_Mask2mm",9.0000,4.0000,0.0000,top
-"FID903","FIDUCIAL","Fiducial_Cross_0.5mm_Mask2mm",71.0000,46.0000,0.0000,top
+"FID901","FIDUCIAL","Fiducial_1mm_Mask2mm",9.0000,46.0000,0.0000,top
+"FID902","FIDUCIAL","Fiducial_1mm_Mask2mm",9.0000,4.0000,0.0000,top
+"FID903","FIDUCIAL","Fiducial_1mm_Mask2mm",71.0000,46.0000,0.0000,top
 "ID901","BOARD_STACKUP_MARKER","STACKUP_ID_2L_SML",13.0000,4.0000,0.0000,top
 "J101","KLDX-0202-B","BarrelJack_Kycon_KLDX-0202-xC_Horizontal",14.7000,30.0000,0.0000,top
 "J102","EBWA-02-B","TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal",5.0000,20.0000,-90.0000,top

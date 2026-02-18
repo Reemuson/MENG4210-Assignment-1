@@ -1,4 +1,4 @@
-ERC report (2026-02-11T05:09:14+0000, Encoding UTF8)
+ERC report (2026-02-18T01:01:52+0000, Encoding UTF8)
 
 ***** Sheet /
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
@@ -40,18 +40,6 @@ ERC report (2026-02-11T05:09:14+0000, Encoding UTF8)
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
     ; warning
     @(1.7272 mm, 0.7493 mm): Symbol TP303 [TestPoint]
-
-[footprint_link_issues]: Footprint 'Fiducial_Cross_0.5mm_Mask2mm' not found in library 'Fiducial'.
-    ; warning
-    @(1.397 mm, 0.5207 mm): Symbol FID901 [Fiducial]
-
-[footprint_link_issues]: Footprint 'Fiducial_Cross_0.5mm_Mask2mm' not found in library 'Fiducial'.
-    ; warning
-    @(1.397 mm, 0.5969 mm): Symbol FID902 [Fiducial]
-
-[footprint_link_issues]: Footprint 'Fiducial_Cross_0.5mm_Mask2mm' not found in library 'Fiducial'.
-    ; warning
-    @(1.397 mm, 0.6731 mm): Symbol FID903 [Fiducial]
 
 [footprint_link_issues]: The current configuration does not include the footprint library 'RD-Symbols-Silkscreen'.
     ; warning
@@ -155,4 +143,4 @@ ERC report (2026-02-11T05:09:14+0000, Encoding UTF8)
 ***** Sheet /ARCHITECTURE/6. PASS ELEMENT/
 ***** Sheet /ARCHITECTURE/9. MISCELLANEOUS/
 ***** Sheet /REVISION HISTORY/
- ** ERC messages: 36  Errors 0  Warnings 36
+ ** ERC messages: 33  Errors 0  Warnings 33

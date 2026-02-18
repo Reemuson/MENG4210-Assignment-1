@@ -1,31 +1,7 @@
 ** Drc report for Input-Protection.kicad_pcb **
-** Created on 2026-02-11T05:09:15+0000 **
+** Created on 2026-02-18T01:01:54+0000 **
 
-** Found 54 DRC violations **
-[shorting_items]: Items shorting two nets (nets  and )
-    ; error
-    @(126.565645 mm, 97.65 mm): Pad [<no net>] of FID902 on L1 (Sig, PWR)
-    @(125.565645 mm, 97.4 mm): Rectangle [<no net>] of FID902 on L1 (Sig, PWR)
-[shorting_items]: Items shorting two nets (nets  and )
-    ; error
-    @(126.565645 mm, 97.65 mm): Pad [<no net>] of FID902 on L1 (Sig, PWR)
-    @(126.315645 mm, 96.65 mm): Rectangle [<no net>] of FID902 on L1 (Sig, PWR)
-[shorting_items]: Items shorting two nets (nets  and )
-    ; error
-    @(188.565645 mm, 55.65 mm): Pad [<no net>] of FID903 on L1 (Sig, PWR)
-    @(187.565645 mm, 55.4 mm): Rectangle [<no net>] of FID903 on L1 (Sig, PWR)
-[shorting_items]: Items shorting two nets (nets  and )
-    ; error
-    @(188.315645 mm, 54.65 mm): Rectangle [<no net>] of FID903 on L1 (Sig, PWR)
-    @(188.565645 mm, 55.65 mm): Pad [<no net>] of FID903 on L1 (Sig, PWR)
-[shorting_items]: Items shorting two nets (nets  and )
-    ; error
-    @(125.565645 mm, 55.4 mm): Rectangle [<no net>] of FID901 on L1 (Sig, PWR)
-    @(126.565645 mm, 55.65 mm): Pad [<no net>] of FID901 on L1 (Sig, PWR)
-[shorting_items]: Items shorting two nets (nets  and )
-    ; error
-    @(126.565645 mm, 55.65 mm): Pad [<no net>] of FID901 on L1 (Sig, PWR)
-    @(126.315645 mm, 54.65 mm): Rectangle [<no net>] of FID901 on L1 (Sig, PWR)
+** Found 42 DRC violations **
 [lib_footprint_mismatch]: Footprint 'R_1206_3216Metric_Pad1.30x1.75mm_HandSolder' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(155.065645 mm, 85.65 mm): Footprint R503
@@ -152,30 +128,6 @@
 [lib_footprint_mismatch]: Footprint 'R_1206_3216Metric_Pad1.30x1.75mm_HandSolder' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(149.065645 mm, 86.15 mm): Footprint R303
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    ; warning (excluded)
-    @(125.565645 mm, 97.4 mm): Rectangle [<no net>] of FID902 on L1 (Sig, PWR)
-    @(126.565645 mm, 97.65 mm): Pad [<no net>] of FID902 on L1 (Sig, PWR)
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    ; warning (excluded)
-    @(126.315645 mm, 96.65 mm): Rectangle [<no net>] of FID902 on L1 (Sig, PWR)
-    @(126.565645 mm, 97.65 mm): Pad [<no net>] of FID902 on L1 (Sig, PWR)
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    ; warning (excluded)
-    @(187.565645 mm, 55.4 mm): Rectangle [<no net>] of FID903 on L1 (Sig, PWR)
-    @(188.565645 mm, 55.65 mm): Pad [<no net>] of FID903 on L1 (Sig, PWR)
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    ; warning (excluded)
-    @(188.315645 mm, 54.65 mm): Rectangle [<no net>] of FID903 on L1 (Sig, PWR)
-    @(188.565645 mm, 55.65 mm): Pad [<no net>] of FID903 on L1 (Sig, PWR)
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    ; warning (excluded)
-    @(125.565645 mm, 55.4 mm): Rectangle [<no net>] of FID901 on L1 (Sig, PWR)
-    @(126.565645 mm, 55.65 mm): Pad [<no net>] of FID901 on L1 (Sig, PWR)
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    ; warning (excluded)
-    @(126.315645 mm, 54.65 mm): Rectangle [<no net>] of FID901 on L1 (Sig, PWR)
-    @(126.565645 mm, 55.65 mm): Pad [<no net>] of FID901 on L1 (Sig, PWR)
 
 ** Found 0 unconnected pads **
 
