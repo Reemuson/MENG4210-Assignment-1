@@ -16,7 +16,7 @@ outputs:
     color_theme: '@COLOR_THEME@'
     output: '%f-fabrication%I%v.%x'
     format: 'PDF'
-    title: '@DOC_TITLE@ Document'
+    title: '@DOC_TITLE@ DOCUMENT'
     realistic_solder_mask: false
     dpi: 1200
     dnf_filter: _kibom_dnf_Config

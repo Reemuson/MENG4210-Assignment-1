@@ -4,6 +4,25 @@
 
 ### Fixed
 
+-   Tidied up some routing issues
+
+### Added
+
+-   N/A
+
+### Changed
+
+-   Changed fiducials to be circular
+-   Changed info block
+
+### Removed
+
+-   N/A
+
+## [1.0.0] - 2026-02-11
+
+### Fixed
+
 -   N/A
 
 ### Added

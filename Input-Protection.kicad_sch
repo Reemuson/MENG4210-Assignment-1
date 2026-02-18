@@ -10,7 +10,7 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
-	(text "Variant: ${VARIANT}"
+	(text "VARIANT: ${VARIANT}"
 		(exclude_from_sim no)
 		(at 25.4 58.42 0)
 		(effects
@@ -23,20 +23,6 @@
 			(justify left bottom)
 		)
 		(uuid "000ea912-7563-47e5-be4a-8607b961f825")
-	)
-	(text "RELEASED - A board with this schematic has been sent to production."
-		(exclude_from_sim no)
-		(at 222.25 217.17 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 140 140 140 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "03a9de87-2a7c-40cc-8949-62aed018c019")
 	)
 	(text "${SHEET_NAME_24}"
 		(exclude_from_sim no)
@@ -77,7 +63,7 @@
 		)
 		(uuid "08a32c22-6c93-4ab9-b845-4fe7f3ebca4d")
 	)
-	(text "Index"
+	(text "INDEX"
 		(exclude_from_sim no)
 		(at 243.84 71.12 0)
 		(effects
@@ -90,7 +76,7 @@
 		)
 		(uuid "092e98e3-7957-434d-bfdd-b05263750684")
 	)
-	(text "Page"
+	(text "PAGE"
 		(exclude_from_sim no)
 		(at 332.74 71.12 0)
 		(effects
@@ -129,20 +115,6 @@
 		)
 		(uuid "1009d74b-dab5-4621-8c04-f00d978fa044")
 	)
-	(text "PRELIMINARY - Close to final schematic."
-		(exclude_from_sim no)
-		(at 222.25 204.47 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 140 140 140 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "11442418-ba27-4cbf-a7e2-cc6ed9935eb1")
-	)
 	(text "${SHEET_NAME_22}"
 		(exclude_from_sim no)
 		(at 243.84 91.44 0)
@@ -155,6 +127,20 @@
 			(href "#22")
 		)
 		(uuid "1344757b-e41f-4e80-947b-0a2035b4fce9")
+	)
+	(text "DRAFT - EARLY STAGE SCHEMATIC CAPTURE"
+		(exclude_from_sim no)
+		(at 222.25 198.12 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 140 140 140 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1419386f-3503-43b3-831b-daa56514c124")
 	)
 	(text "40"
 		(exclude_from_sim no)
@@ -207,20 +193,6 @@
 			(href "#11")
 		)
 		(uuid "22628abe-bb8c-4ca9-a559-3456e08ce477")
-	)
-	(text "DRAFT - Very early stage of schematic, ignore details."
-		(exclude_from_sim no)
-		(at 222.25 198.12 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 140 140 140 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "23bcc4dd-d59d-4c05-b342-2d26db58b8da")
 	)
 	(text "28"
 		(exclude_from_sim no)
@@ -300,7 +272,7 @@
 		)
 		(uuid "2ac8cebd-4832-4e21-b843-d3261443e2b6")
 	)
-	(text "Index"
+	(text "INDEX"
 		(exclude_from_sim no)
 		(at 342.9 71.12 0)
 		(effects
@@ -339,7 +311,7 @@
 		)
 		(uuid "2ebc04cc-20ea-44c3-8fd2-b0fb93c45b42")
 	)
-	(text "Page"
+	(text "PAGE"
 		(exclude_from_sim no)
 		(at 35.56 71.12 0)
 		(effects
@@ -378,7 +350,7 @@
 		)
 		(uuid "3946100b-591d-4e38-9079-fe42aa6dc626")
 	)
-	(text "Page"
+	(text "PAGE"
 		(exclude_from_sim no)
 		(at 134.62 71.12 0)
 		(effects
@@ -393,7 +365,7 @@
 	)
 	(text "${RELEASE_DATE_NUM}"
 		(exclude_from_sim no)
-		(at 388.62 40.64 0)
+		(at 402.59 40.64 0)
 		(effects
 			(font
 				(size 11 11)
@@ -470,18 +442,6 @@
 		)
 		(uuid "4fefe87c-0c25-43e5-a3b2-18b15abe07e3")
 	)
-	(text "Not fitted components are marked as"
-		(exclude_from_sim no)
-		(at 222.25 187.96 0)
-		(effects
-			(font
-				(size 3 3)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "5135dbd7-df4e-46cd-8739-492cd009b1f6")
-	)
 	(text "${SHEET_NAME_11}"
 		(exclude_from_sim no)
 		(at 144.78 83.82 0)
@@ -494,6 +454,20 @@
 			(href "#11")
 		)
 		(uuid "521b08c4-0bd9-4d68-80be-7478df8fbde9")
+	)
+	(text "CHECKED - PCB LAYOUT CHECKED, CONTACT ENGINEER IF MISTAKE FOUND"
+		(exclude_from_sim no)
+		(at 222.25 210.82 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 140 140 140 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "52ae3685-9bfe-4631-85a4-48ce7750e154")
 	)
 	(text "32"
 		(exclude_from_sim no)
@@ -547,6 +521,18 @@
 		)
 		(uuid "5f3a4b8b-6b33-42d9-ac5f-6e29aa22b302")
 	)
+	(text "NOT FITTED COMPONENTS MARKED AS"
+		(exclude_from_sim no)
+		(at 222.25 187.96 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "601c1147-3488-4eae-b983-64b41baf6f51")
+	)
 	(text "35"
 		(exclude_from_sim no)
 		(at 332.74 114.3 0)
@@ -586,9 +572,9 @@
 		)
 		(uuid "6b8d090b-e89a-4677-84e9-b64a5fead89e")
 	)
-	(text "Rev ${REVISION}"
+	(text "REV ${REVISION}"
 		(exclude_from_sim no)
-		(at 388.62 58.42 0)
+		(at 402.59 58.42 0)
 		(effects
 			(font
 				(size 11 11)
@@ -612,20 +598,6 @@
 			(href "#15")
 		)
 		(uuid "6f858022-2996-4265-8d0d-5392f83665ac")
-	)
-	(text "CHECKED - There shouldn't be any mistakes. Contact the engineer if found."
-		(exclude_from_sim no)
-		(at 222.25 210.82 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 140 140 140 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "701d40a5-7fcc-4d35-a582-e3de3695524c")
 	)
 	(text "BOTTOM VIEW"
 		(exclude_from_sim no)
@@ -875,7 +847,7 @@
 		)
 		(uuid "947e5fec-ce7e-4c5c-82f3-37357af6847d")
 	)
-	(text "Index"
+	(text "INDEX"
 		(exclude_from_sim no)
 		(at 144.78 71.12 0)
 		(effects
@@ -1005,6 +977,20 @@
 		)
 		(uuid "bf5fa6d6-b99b-4e2a-8d79-716b5f8f7abf")
 	)
+	(text "RELEASED - READY FOR PRODUCTION"
+		(exclude_from_sim no)
+		(at 222.25 217.17 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 140 140 140 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c150d1e5-9430-46d5-bc4b-0c7fd86021b8")
+	)
 	(text "${SHEET_NAME_34}"
 		(exclude_from_sim no)
 		(at 342.9 106.68 0)
@@ -1070,7 +1056,7 @@
 		)
 		(uuid "c70c3e5e-4d3f-4182-9ae5-10ba4deb3184")
 	)
-	(text "Page"
+	(text "PAGE"
 		(exclude_from_sim no)
 		(at 233.68 71.12 0)
 		(effects
@@ -1082,18 +1068,6 @@
 			(justify right bottom)
 		)
 		(uuid "c7960137-7711-4ffe-94cf-8be0bcb30b2c")
-	)
-	(text "Comment"
-		(exclude_from_sim no)
-		(at 222.25 177.8 0)
-		(effects
-			(font
-				(size 3 3)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd70c2d3-2fc1-43f3-bef3-88f512b1207b")
 	)
 	(text "TOP VIEW"
 		(exclude_from_sim no)
@@ -1134,7 +1108,19 @@
 		)
 		(uuid "d794f70b-0900-43e4-9530-3b5babcc433e")
 	)
-	(text "Index"
+	(text "COMMENT"
+		(exclude_from_sim no)
+		(at 222.25 177.8 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc40a59f-dab0-4b42-8cac-ff47573767f8")
+	)
+	(text "INDEX"
 		(exclude_from_sim no)
 		(at 45.72 71.12 0)
 		(effects
@@ -1276,6 +1262,20 @@
 			(href "#9")
 		)
 		(uuid "f5bbe170-3943-4a40-9782-9cbd23ca5c03")
+	)
+	(text "PRELIMINARY - LATE STAGE SCHEMATIC CAPTURE"
+		(exclude_from_sim no)
+		(at 222.25 204.47 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 140 140 140 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f657b4e1-84b5-4b83-ab1e-4a673e0c1c5b")
 	)
 	(text "${SHEET_NAME_33}"
 		(exclude_from_sim no)
@@ -1525,14 +1525,14 @@
 	)
 	(polyline
 		(pts
-			(xy 311.15 181.61) (xy 313.69 187.96)
+			(xy 313.69 181.61) (xy 311.15 187.96)
 		)
 		(stroke
 			(width 1)
 			(type default)
 			(color 255 0 0 1)
 		)
-		(uuid "3799b615-bea5-4cb3-b9a2-2785865702a8")
+		(uuid "34a611a8-154c-4017-8982-1622b9f5d914")
 	)
 	(polyline
 		(pts
@@ -1547,7 +1547,18 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9 73.66) (xy 233.68 73.66)
+			(xy 311.15 181.61) (xy 313.69 187.96)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4b573086-55f3-47c9-8d9b-e31008b69556")
+	)
+	(polyline
+		(pts
+			(xy 219.71 73.66) (xy 233.68 73.66)
 		)
 		(stroke
 			(width 1)
@@ -1558,7 +1569,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 73.66) (xy 134.62 73.66)
+			(xy 120.65 73.66) (xy 134.62 73.66)
 		)
 		(stroke
 			(width 1)
@@ -1569,7 +1580,7 @@
 	)
 	(polyline
 		(pts
-			(xy 314.96 73.66) (xy 332.74 73.66)
+			(xy 318.77 73.66) (xy 332.74 73.66)
 		)
 		(stroke
 			(width 1)
@@ -1588,17 +1599,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "a3703ec8-87d6-4c32-a8ca-249d86e6160c")
-	)
-	(polyline
-		(pts
-			(xy 313.69 181.61) (xy 311.15 187.96)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "d1a06d73-e78a-446f-b9d8-0d5c726588d3")
 	)
 	(polyline
 		(pts
