@@ -1,6 +1,6 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.7+1*%
 %TF.CreationDate,Date%
-%TF.ProjectId,Input-Protection,496e7075-742d-4507-926f-74656374696f,1.0.0*%
+%TF.ProjectId,Input-Protection,496e7075-742d-4507-926f-74656374696f,1.0.0+ (Unreleased)*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
@@ -168,7 +168,7 @@ X142315645Y-69900000D03*
 %TD*%
 D19*
 %TO.C,TP502*%
-X145065645Y-55650000D03*
+X145064645Y-55650000D03*
 %TD*%
 D16*
 %TO.C,R508*%
