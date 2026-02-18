@@ -1,5 +1,5 @@
 ** Drc report for Input-Protection.kicad_pcb **
-** Created on 2026-02-18T01:01:54+0000 **
+** Created on 2026-02-18T01:36:54+0000 **
 
 ** Found 42 DRC violations **
 [lib_footprint_mismatch]: Footprint 'R_1206_3216Metric_Pad1.30x1.75mm_HandSolder' does not match copy in library 'Resistor_SMD'.

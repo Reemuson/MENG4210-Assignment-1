@@ -61,11 +61,36 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE		0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">63a4f02</textvar>
-    <textvar name="GIT_HASH_SCH">63a4f02</textvar>
+    <textvar name="GIT_HASH_PCB">0313524</textvar>
+    <textvar name="GIT_HASH_SCH">0313524</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Assignment-1</textvar>
     <textvar name="PROJECT_NAME">ASSIGNMENT 1</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
+
+Fixed
+
+-   N/A
+
+___________________________________
+
+Added
+
+-   Schematic capture and layout of a -50 to +50 V input +12 to +17 V output 1A protection PCBA
+
+___________________________________
+
+Changed
+
+-   N/A
+
+___________________________________
+
+Removed
+
+-   N/A</textvar>
+    <textvar name="RELEASE_BODY_1.0.1"/>
+    <textvar name="RELEASE_BODY_1.0.2"/>
+    <textvar name="RELEASE_BODY_1.1.0">___________________________________
 
 Fixed
 
@@ -90,18 +115,15 @@ ___________________________________
 Removed
 
 -   N/A</textvar>
-    <textvar name="RELEASE_BODY_1.0.1"/>
-    <textvar name="RELEASE_BODY_1.0.2"/>
-    <textvar name="RELEASE_BODY_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">18-Feb-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-02-18</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-02-11</textvar>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
-    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 not found.</textvar>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 - 2026-02-18</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">1.0.0+ (Unreleased)</textvar>
+    <textvar name="REVISION">1.1.0</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">REVISION HISTORY</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -147,7 +169,7 @@ Removed
       <title_block>
         <title/>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Input-Protection.kicad_sch</source>
         <comment number="1" value=""/>
@@ -165,7 +187,7 @@ Removed
       <title_block>
         <title>ARCHITECTURE</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -183,7 +205,7 @@ Removed
       <title_block>
         <title>1. INTERCONNECTS</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Interconnects.kicad_sch</source>
         <comment number="1" value=""/>
@@ -201,7 +223,7 @@ Removed
       <title_block>
         <title>2. POLARITY PROTECTION</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Polarity Protection.kicad_sch</source>
         <comment number="1" value=""/>
@@ -219,7 +241,7 @@ Removed
       <title_block>
         <title>3. SENSING</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Sensing.kicad_sch</source>
         <comment number="1" value=""/>
@@ -237,7 +259,7 @@ Removed
       <title_block>
         <title>4. POWER</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Power.kicad_sch</source>
         <comment number="1" value=""/>
@@ -255,7 +277,7 @@ Removed
       <title_block>
         <title>5. COMPARATOR</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Comparator.kicad_sch</source>
         <comment number="1" value=""/>
@@ -273,7 +295,7 @@ Removed
       <title_block>
         <title>6. PASS ELEMENT</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Pass Element.kicad_sch</source>
         <comment number="1" value=""/>
@@ -291,7 +313,7 @@ Removed
       <title_block>
         <title>9. MISCELLANEOUS</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Miscellaneous.kicad_sch</source>
         <comment number="1" value=""/>
@@ -309,7 +331,7 @@ Removed
       <title_block>
         <title>REVISION HISTORY</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
